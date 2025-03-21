@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    gap: 2rem;
+}
+
+header .logo img {
+    max-height: 200px; /* Ajuste conforme necessário */
+    width: auto; /* Mantém a proporção */
+}
+
+header .search {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+header .search input {
+    padding: 10px 15px 10px 45px; /* Aumentei o padding-left para 45px */
+    border: 2px solid #444;
+    border-radius: 5px;
+    width: 500px;
+    height: 40px;
+    outline: none;
+    background-color: #fff;
+    color: #333;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
+}
+
+header .search input::placeholder {
+    color: #888;
+}
+
+header .search input:focus {
+    border-color: #000;
+}
+
+header .search i {
+    position: absolute;
+    left: 15px; /* Mantém o ícone fixo à esquerda */
+    color: #444;
+    font-size: 18px;
+}
+
+header .login {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    border: #f4f4f4 1px solid;
+    border-radius: 5px;
+}
+
+header .login a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Estilos para o anúncio */
+.announce {
+    margin: 20px auto;
+    text-align: center;
+    max-width: 90%;
+}
+
+.announce img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    header .search input {
+        width: 100%;
+    }
+
+    header .logo img {
+        max-height: 150px;
+    }
+}
