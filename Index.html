@@ -15,18 +15,25 @@
         <div class="search">
             <input type="search" id="search" placeholder="Type here to search" aria-label="Search"> 
             <i class="fas fa-search" aria-hidden="true"></i>
+            <div class="search-results" id="search-results"></div> <!-- Container para os resultados -->
         </div>
+
         <div class="login">
             <a href="login.html" aria-label="Login">
                 <i class="fas fa-user"></i>
             </a>
         </div>
     </header>
-    
+
     <aside class="announce">
         <img src="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/clusters/takeunder/6b79172fa8cad43d5a30461c/takeunder_desktop_portuguese.jpg?t=1739982406" 
              alt="Promotional Announcement">
     </aside>
-    
+
+    <main class="container" id="games-container">
+        <!-- Os jogos serão carregados dinamicamente aqui -->
+    </main>
+
+    <script src="JS/script.js"></script>
 </body>
 </html>

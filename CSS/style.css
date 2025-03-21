@@ -16,13 +16,12 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 auto;
     gap: 2rem;
 }
 
 header .logo img {
-    max-height: 200px; /* Ajuste conforme necessário */
-    width: auto; /* Mantém a proporção */
+    max-height: 200px;
+    width: auto;
 }
 
 header .search {
@@ -32,7 +31,7 @@ header .search {
 }
 
 header .search input {
-    padding: 10px 15px 10px 45px; /* Aumentei o padding-left para 45px */
+    padding: 10px 15px 10px 45px;
     border: 2px solid #444;
     border-radius: 5px;
     width: 500px;
@@ -54,7 +53,7 @@ header .search input:focus {
 
 header .search i {
     position: absolute;
-    left: 15px; /* Mantém o ícone fixo à esquerda */
+    left: 15px;
     color: #444;
     font-size: 18px;
 }
@@ -72,7 +71,6 @@ header .login a {
     text-decoration: none;
 }
 
-/* Estilos para o anúncio */
 .announce {
     margin: 20px auto;
     text-align: center;
@@ -86,18 +84,117 @@ header .login a {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-    header {
-        flex-direction: column;
-        gap: 1rem;
-    }
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
 
-    header .search input {
-        width: 100%;
-    }
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 200px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
 
-    header .logo img {
-        max-height: 150px;
-    }
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card h2 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+
+.detalhes-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.detalhes-jogo img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.detalhes-jogo h1 {
+    font-size: 2.5rem;
+    margin: 20px 0;
+}
+
+.detalhes-jogo .valor {
+    font-size: 1.5rem;
+    color: #4CAF50;
+    margin: 10px 0;
+}
+
+.detalhes-jogo .btn-comprar {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin: 20px 0;
+}
+
+.detalhes-jogo .btn-comprar:hover {
+    background-color: #45a049;
+}
+
+.detalhes-jogo .sinopse {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin: 20px 0;
+}
+
+.detalhes-jogo .avaliacoes {
+    font-size: 1.2rem;
+    color: #FFD700;
+}
+
+.search {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.search-results {
+    position: absolute;
+    top: 100%; /* Posiciona abaixo da barra de pesquisa */
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-height: 200px;
+    overflow-y: auto;
+    z-index: 1000;
+    display: none; /* Esconde os resultados inicialmente */
+}
+
+.search-results .result-item {
+    padding: 10px;
+    cursor: pointer;
+    color: #333;
+    border-bottom: 1px solid #eee;
+}
+
+.search-results .result-item:hover {
+    background-color: #f9f9f9;
 }
