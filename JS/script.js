@@ -31,50 +31,51 @@ document.addEventListener("DOMContentLoaded", function () {
         .then(response => response.json())
         .then(data => {
             jogos = data; // Armazena os jogos na variável
+
+            // Configura o Fuse.js para busca aproximada
+            const fuse = new Fuse(jogos, {
+                keys: ["nome", "genero", "sinopse"], // Campo que será usado para a busca
+                includeScore: true, // Inclui a pontuação de similaridade
+                threshold: 0.3, // Define o limite de similaridade (0 = exato, 1 = qualquer coisa)
+            });
+
+            // Função para exibir os resultados da pesquisa
+            function exibirResultados(resultados) {
+                searchResults.innerHTML = ""; // Limpa os resultados anteriores
+
+                if (resultados.length > 0) {
+                    resultados.forEach(resultado => {
+                        const jogo = resultado.item; // O jogo correspondente
+                        const item = document.createElement("div");
+                        item.className = "result-item";
+                        item.textContent = jogo.nome;
+                        item.addEventListener("click", () => {
+                            window.location.href = `detalhes.html?id=${jogo.id}`;
+                        });
+                        searchResults.appendChild(item);
+                    });
+                    searchResults.style.display = "block"; // Exibe os resultados
+                } else {
+                    searchResults.style.display = "none"; // Esconde os resultados se não houver correspondências
+                }
+            }
+
+            // Evento de input na barra de pesquisa
+            searchInput.addEventListener("input", function () {
+                const termo = this.value.trim();
+                if (termo.length > 0) {
+                    const resultados = fuse.search(termo); // Usa o Fuse.js para buscar
+                    exibirResultados(resultados);
+                } else {
+                    searchResults.style.display = "none"; // Esconde os resultados se o campo estiver vazio
+                }
+            });
         })
         .catch(error => console.error("Erro ao carregar os jogos:", error));
 
-    // Função para filtrar os jogos
-    function filtrarJogos(termo) {
-        return jogos.filter(jogo =>
-            jogo.nome.toLowerCase().includes(termo.toLowerCase())
-        );
-    }
-
-    // Função para exibir os resultados da pesquisa
-    function exibirResultados(resultados) {
-        searchResults.innerHTML = ""; // Limpa os resultados anteriores
-
-        if (resultados.length > 0) {
-            resultados.forEach(jogo => {
-                const item = document.createElement("div");
-                item.className = "result-item";
-                item.textContent = jogo.nome;
-                item.addEventListener("click", () => {
-                    window.location.href = `detalhes.html?id=${jogo.id}`;
-                });
-                searchResults.appendChild(item);
-            });
-            searchResults.style.display = "block"; // Exibe os resultados
-        } else {
-            searchResults.style.display = "none"; // Esconde os resultados se não houver correspondências
-        }
-    }
-
-    // Evento de input na barra de pesquisa
-    searchInput.addEventListener("input", function () {
-        const termo = this.value.trim();
-        if (termo.length > 0) {
-            const resultados = filtrarJogos(termo);
-            exibirResultados(resultados);
-        } else {
-            searchResults.style.display = "none"; // Esconde os resultados se o campo estiver vazio
-        }
-    });
-
     // Esconde os resultados ao clicar fora da barra de pesquisa
     document.addEventListener("click", function (event) {
-        if (!searchInput.contains(event.target)){
+        if (!searchInput.contains(event.target)) {
             searchResults.style.display = "none";
         }
     });

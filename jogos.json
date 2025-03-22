@@ -4,24 +4,399 @@
         "nome": "Red Dead Redemption 2",
         "imagem": "https://image.api.playstation.com/cdn/UP1004/CUSA03041_00/Hpl5MtwQgOVF9vJqlfui6SDB5Jl4oBSq.png",
         "valor": "R$ 299,00",
-        "sinopse": "Este é um jogo incrível com gráficos impressionantes e uma história envolvente.",
-        "avaliacoes": 4.5
+        "sinopse": "Um épico jogo de mundo aberto no Velho Oeste.",
+        "avaliacoes": 4.8
     },
     {
         "id": 2,
         "nome": "Grand Theft Auto V",
-        "imagem": "https://cdn.cloudflare.steamstatic.com/steam/apps/256404/capsule_sm_120.jpg?t=1631507008",
+        "imagem": "https://image.api.playstation.com/cdn/UP1004/CUSA00419_00/bTNSe7ok8eFVGeQByA5qSzBQoKAAY32R.png",
         "valor": "R$ 179,99",
-        "sinopse": "Um jogo de ação e aventura que vai te prender por horas.",
+        "sinopse": "Ação e aventura na cidade de Los Santos.",
         "avaliacoes": 4.7
     },
     {
         "id": 3,
-        "nome": "Minecraft",
-        "imagem": "https://cdn.cloudflare.steamstatic.com/steam/apps/256405/capsule_sm_120.jpg?t=1631507008",
-        "valor": "R$ 49,99",
-        "sinopse": "Um jogo de estratégia que testará suas habilidades.",
+        "nome": "The Witcher 3: Wild Hunt",
+        "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202211/0711/kh4MUIuMmHlktOHar3lVl6rY.png",
+        "valor": "R$ 99,90",
+        "sinopse": "Um RPG de mundo aberto com uma história épica.",
+        "avaliacoes": 4.9
+    },
+    {
+        "id": 4,
+        "nome": "Cyberpunk 2077",
+        "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202008/0416/6Bo40lnWU0BhgrOUm7Cb6by3.png",
+        "valor": "R$ 199,90",
+        "sinopse": "Um RPG de ação no futuro distópico de Night City.",
+        "avaliacoes": 3.8
+    },
+    {
+        "id": 5,
+        "nome": "Assassin's Creed Valhalla",
+        "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202006/1520/EDtkdijFRwbmGKk1G9lrDoEF.png",
+        "valor": "R$ 249,90",
+        "sinopse": "Explore a era dos vikings neste RPG de ação.",
+        "avaliacoes": 4.5
+    },
+    {
+        "id": 6,
+        "nome": "Call of Duty: Modern Warfare",
+        "imagem": "https://cdn.cloudflare.steamstatic.com/steam/apps/256400/capsule_sm_120.jpg?t=1631507008",
+        "valor": "R$ 199,90",
+        "sinopse": "Um FPS intenso com gráficos realistas.",
+        "avaliacoes": 4.6
+    },
+    {
+        "id": 7,
+        "nome": "FIFA 23",
+        "imagem": "https://cdn.cloudflare.steamstatic.com/steam/apps/256399/capsule_sm_120.jpg?t=1631507008",
+        "valor": "R$ 299,90",
+        "sinopse": "O mais recente jogo de futebol da EA Sports.",
+        "avaliacoes": 4.3
+    },
+    {
+        "id": 8,
+        "nome": "Battlefield 2042",
+        "imagem": "https://cdn.cloudflare.steamstatic.com/steam/apps/256398/capsule_sm_120.jpg?t=1631507008",
+        "valor": "R$ 249,90",
+        "sinopse": "Guerra em grande escala no futuro próximo.",
+        "avaliacoes": 3.9
+    },
+    {
+        "id": 9,
+        "nome": "Horizon Forbidden West",
+        "imagem": "https://cdn.cloudflare.steamstatic.com/steam/apps/256397/capsule_sm_120.jpg?t=1631507008",
+        "valor": "R$ 349,90",
+        "sinopse": "Aventura em um mundo pós-apocalíptico cheio de máquinas.",
+        "avaliacoes": 4.7
+    },
+    {
+        "id": 10,
+        "nome": "God of War",
+        "imagem": "https://cdn.cloudflare.steamstatic.com/steam/apps/256396/capsule_sm_120.jpg?t=1631507008",
+        "valor": "R$ 199,90",
+        "sinopse": "A jornada de Kratos e seu filho Atreus.",
+        "avaliacoes": 4.9
+    },
+    {
+        "id": 11,
+        "nome": "Spider-Man: Miles Morales",
+        "imagem": "https://cdn.cloudflare.steamstatic.com/steam/apps/256395/capsule_sm_120.jpg?t=1631507008",
+        "valor": "R$ 249,90",
+        "sinopse": "Aventura do Homem-Aranha em Nova York.",
+        "avaliacoes": 4.6
+    },
+    {
+        "id": 12,
+        "nome": "The Last of Us Part II",
+        "imagem": "https://cdn.cloudflare.steamstatic.com/steam/apps/256394/capsule_sm_120.jpg?t=1631507008",
+        "valor": "R$ 299,90",
+        "sinopse": "Uma emocionante história de sobrevivência e vingança.",
+        "avaliacoes": 4.8
+    },
+    {
+        "id": 13,
+        "nome": "Halo Infinite",
+        "imagem": "https://cdn.cloudflare.steamstatic.com/steam/apps/256393/capsule_sm_120.jpg?t=1631507008",
+        "valor": "R$ 249,90",
+        "sinopse": "A mais nova aventura do Master Chief.",
+        "avaliacoes": 4.4
+    },
+    {
+        "id": 14,
+        "nome": "Forza Horizon 5",
+        "imagem": "https://cdn.cloudflare.steamstatic.com/steam/apps/256392/capsule_sm_120.jpg?t=1631507008",
+        "valor": "R$ 299,90",
+        "sinopse": "Corridas emocionantes no México.",
+        "avaliacoes": 4.7
+    },
+    {
+        "id": 15,
+        "nome": "Resident Evil Village",
+        "imagem": "https://cdn.cloudflare.steamstatic.com/steam/apps/256391/capsule_sm_120.jpg?t=1631507008",
+        "valor": "R$ 199,90",
+        "sinopse": "Terror e ação em um vilarejo assustador.",
+        "avaliacoes": 4.5
+    },
+    {
+        "id": 16,
+        "nome": "Death Stranding",
+        "imagem": "https://cdn.cloudflare.steamstatic.com/steam/apps/256390/capsule_sm_120.jpg?t=1631507008",
+        "valor": "R$ 199,90",
+        "sinopse": "Uma jornada única em um mundo pós-apocalíptico.",
+        "avaliacoes": 4.3
+    },
+    {
+        "id": 17,
+        "nome": "Sekiro: Shadows Die Twice",
+        "imagem": "https://cdn.cloudflare.steamstatic.com/steam/apps/256389/capsule_sm_120.jpg?t=1631507008",
+        "valor": "R$ 199,90",
+        "sinopse": "Um jogo de ação desafiador no Japão feudal.",
+        "avaliacoes": 4.6
+    },
+    {
+        "id": 18,
+        "nome": "Doom Eternal",
+        "imagem": "https://cdn.cloudflare.steamstatic.com/steam/apps/256388/capsule_sm_120.jpg?t=1631507008",
+        "valor": "R$ 199,90",
+        "sinopse": "Ação frenética contra demônios.",
+        "avaliacoes": 4.7
+    },
+    {
+        "id": 19,
+        "nome": "Control",
+        "imagem": "https://cdn.cloudflare.steamstatic.com/steam/apps/256387/capsule_sm_120.jpg?t=1631507008",
+        "valor": "R$ 149,90",
+        "sinopse": "Um jogo de ação e mistério em um prédio sobrenatural.",
+        "avaliacoes": 4.4
+    },
+    {
+        "id": 20,
+        "nome": "Ghost of Tsushima",
+        "imagem": "https://cdn.cloudflare.steamstatic.com/steam/apps/256386/capsule_sm_120.jpg?t=1631507008",
+        "valor": "R$ 299,90",
+        "sinopse": "Aventura samurai na ilha de Tsushima.",
+        "avaliacoes": 4.8
+    },
+    {
+        "id": 21,
+        "nome": "Demon's Souls",
+        "imagem": "https://cdn.cloudflare.steamstatic.com/steam/apps/256385/capsule_sm_120.jpg?t=1631507008",
+        "valor": "R$ 349,90",
+        "sinopse": "Um remake do clássico jogo de ação e RPG.",
+        "avaliacoes": 4.7
+    },
+    {
+        "id": 22,
+        "nome": "Final Fantasy VII Remake",
+        "imagem": "https://cdn.cloudflare.steamstatic.com/steam/apps/256384/capsule_sm_120.jpg?t=1631507008",
+        "valor": "R$ 299,90",
+        "sinopse": "O clássico RPG reimaginado.",
+        "avaliacoes": 4.8
+    },
+    {
+        "id": 23,
+        "nome": "Persona 5 Royal",
+        "imagem": "https://cdn.cloudflare.steamstatic.com/steam/apps/256383/capsule_sm_120.jpg?t=1631507008",
+        "valor": "R$ 249,90",
+        "sinopse": "Um RPG cheio de estilo e personalidade.",
+        "avaliacoes": 4.9
+    },
+    {
+        "id": 24,
+        "nome": "Monster Hunter: World",
+        "imagem": "https://cdn.cloudflare.steamstatic.com/steam/apps/256382/capsule_sm_120.jpg?t=1631507008",
+        "valor": "R$ 199,90",
+        "sinopse": "Caça monstros em um mundo vasto e detalhado.",
+        "avaliacoes": 4.6
+    },
+    {
+        "id": 25,
+        "nome": "Apex Legends",
+        "imagem": "https://cdn.cloudflare.steamstatic.com/steam/apps/256381/capsule_sm_120.jpg?t=1631507008",
+        "valor": "Gratuito",
+        "sinopse": "Um battle royale cheio de ação e estratégia.",
+        "avaliacoes": 4.5
+    },
+    {
+        "id": 26,
+        "nome": "Destiny 2",
+        "imagem": "https://cdn.cloudflare.steamstatic.com/steam/apps/256380/capsule_sm_120.jpg?t=1631507008",
+        "valor": "Gratuito",
+        "sinopse": "Um FPS com elementos de RPG e mundo aberto.",
+        "avaliacoes": 4.4
+    },
+    {
+        "id": 27,
+        "nome": "Overwatch 2",
+        "imagem": "https://cdn.cloudflare.steamstatic.com/steam/apps/256379/capsule_sm_120.jpg?t=1631507008",
+        "valor": "Gratuito",
+        "sinopse": "Um FPS tático com heróis únicos.",
+        "avaliacoes": 4.3
+    },
+    {
+        "id": 28,
+        "nome": "Rainbow Six Siege",
+        "imagem": "https://cdn.cloudflare.steamstatic.com/steam/apps/256378/capsule_sm_120.jpg?t=1631507008",
+        "valor": "R$ 99,90",
+        "sinopse": "Um FPS tático com operações de resgate e defesa.",
+        "avaliacoes": 4.6
+    },
+    {
+        "id": 29,
+        "nome": "Far Cry 6",
+        "imagem": "https://cdn.cloudflare.steamstatic.com/steam/apps/256377/capsule_sm_120.jpg?t=1631507008",
+        "valor": "R$ 249,90",
+        "sinopse": "Ação em um mundo aberto cheio de perigos.",
         "avaliacoes": 4.2
+    },
+    {
+        "id": 30,
+        "nome": "Watch Dogs: Legion",
+        "imagem": "https://cdn.cloudflare.steamstatic.com/steam/apps/256376/capsule_sm_120.jpg?t=1631507008",
+        "valor": "R$ 199,90",
+        "sinopse": "Hackeie e lute contra um regime opressor em Londres.",
+        "avaliacoes": 4.1
+    },
+    {
+        "id": 31,
+        "nome": "Marvel's Avengers",
+        "imagem": "https://cdn.cloudflare.steamstatic.com/steam/apps/256375/capsule_sm_120.jpg?t=1631507008",
+        "valor": "R$ 149,90",
+        "sinopse": "Jogue como os heróis da Marvel em uma aventura épica.",
+        "avaliacoes": 3.9
+    },
+    {
+        "id": 32,
+        "nome": "Star Wars Jedi: Fallen Order",
+        "imagem": "https://cdn.cloudflare.steamstatic.com/steam/apps/256374/capsule_sm_120.jpg?t=1631507008",
+        "valor": "R$ 199,90",
+        "sinopse": "Uma aventura de Star Wars cheia de ação.",
+        "avaliacoes": 4.5
+    },
+    {
+        "id": 33,
+        "nome": "Borderlands 3",
+        "imagem": "https://cdn.cloudflare.steamstatic.com/steam/apps/256373/capsule_sm_120.jpg?t=1631507008",
+        "valor": "R$ 199,90",
+        "sinopse": "Um FPS com muito humor e loot.",
+        "avaliacoes": 4.4
+    },
+    {
+        "id": 34,
+        "nome": "The Outer Worlds",
+        "imagem": "https://cdn.cloudflare.steamstatic.com/steam/apps/256372/capsule_sm_120.jpg?t=1631507008",
+        "valor": "R$ 149,90",
+        "sinopse": "Um RPG de ficção científica com escolhas impactantes.",
+        "avaliacoes": 4.3
+    },
+    {
+        "id": 35,
+        "nome": "Metro Exodus",
+        "imagem": "https://cdn.cloudflare.steamstatic.com/steam/apps/256371/capsule_sm_120.jpg?t=1631507008",
+        "valor": "R$ 199,90",
+        "sinopse": "Sobreviva em um mundo pós-apocalíptico.",
+        "avaliacoes": 4.5
+    },
+    {
+        "id": 36,
+        "nome": "Days Gone",
+        "imagem": "https://cdn.cloudflare.steamstatic.com/steam/apps/256370/capsule_sm_120.jpg?t=1631507008",
+        "valor": "R$ 199,90",
+        "sinopse": "Sobreviva a hordas de zumbis em um mundo aberto.",
+        "avaliacoes": 4.2
+    },
+    {
+        "id": 37,
+        "nome": "Nioh 2",
+        "imagem": "https://cdn.cloudflare.steamstatic.com/steam/apps/256369/capsule_sm_120.jpg?t=1631507008",
+        "valor": "R$ 249,90",
+        "sinopse": "Um jogo de ação desafiador no Japão feudal.",
+        "avaliacoes": 4.6
+    },
+    {
+        "id": 38,
+        "nome": "Mortal Kombat 11",
+        "imagem": "https://cdn.cloudflare.steamstatic.com/steam/apps/256368/capsule_sm_120.jpg?t=1631507008",
+        "valor": "R$ 199,90",
+        "sinopse": "O clássico jogo de luta com gráficos impressionantes.",
+        "avaliacoes": 4.5
+    },
+    {
+        "id": 39,
+        "nome": "Street Fighter V",
+        "imagem": "https://cdn.cloudflare.steamstatic.com/steam/apps/256367/capsule_sm_120.jpg?t=1631507008",
+        "valor": "R$ 99,90",
+        "sinopse": "O famoso jogo de luta agora com novos personagens.",
+        "avaliacoes": 4.3
+    },
+    {
+        "id": 40,
+        "nome": "Tekken 7",
+        "imagem": "https://cdn.cloudflare.steamstatic.com/steam/apps/256366/capsule_sm_120.jpg?t=1631507008",
+        "valor": "R$ 149,90",
+        "sinopse": "O clássico jogo de luta com gráficos incríveis.",
+        "avaliacoes": 4.4
+    },
+    {
+        "id": 41,
+        "nome": "Dragon Ball FighterZ",
+        "imagem": "https://cdn.cloudflare.steamstatic.com/steam/apps/256365/capsule_sm_120.jpg?t=1631507008",
+        "valor": "R$ 199,90",
+        "sinopse": "Um jogo de luta com os personagens de Dragon Ball.",
+        "avaliacoes": 4.6
+    },
+    {
+        "id": 42,
+        "nome": "Injustice 2",
+        "imagem": "https://cdn.cloudflare.steamstatic.com/steam/apps/256364/capsule_sm_120.jpg?t=1631507008",
+        "valor": "R$ 149,90",
+        "sinopse": "Um jogo de luta com os heróis da DC Comics.",
+        "avaliacoes": 4.5
+    },
+    {
+        "id": 43,
+        "nome": "The Division 2",
+        "imagem": "https://cdn.cloudflare.steamstatic.com/steam/apps/256363/capsule_sm_120.jpg?t=1631507008",
+        "valor": "R$ 99,90",
+        "sinopse": "Um RPG de tiro em um mundo pós-apocalíptico.",
+        "avaliacoes": 4.2
+    },
+    {
+        "id": 44,
+        "nome": "Anthem",
+        "imagem": "https://cdn.cloudflare.steamstatic.com/steam/apps/256362/capsule_sm_120.jpg?t=1631507008",
+        "valor": "R$ 49,90",
+        "sinopse": "Um RPG de ação com exoesqueletos e muita aventura.",
+        "avaliacoes": 3.8
+    },
+    {
+        "id": 45,
+        "nome": "Mass Effect Legendary Edition",
+        "imagem": "https://cdn.cloudflare.steamstatic.com/steam/apps/256361/capsule_sm_120.jpg?t=1631507008",
+        "valor": "R$ 249,90",
+        "sinopse": "A trilogia clássica de Mass Effect remasterizada.",
+        "avaliacoes": 4.7
+    },
+    {
+        "id": 46,
+        "nome": "Tomb Raider",
+        "imagem": "https://cdn.cloudflare.steamstatic.com/steam/apps/256360/capsule_sm_120.jpg?t=1631507008",
+        "valor": "R$ 99,90",
+        "sinopse": "Aventura e ação com Lara Croft.",
+        "avaliacoes": 4.4
+    },
+    {
+        "id": 47,
+        "nome": "Shadow of the Tomb Raider",
+        "imagem": "https://cdn.cloudflare.steamstatic.com/steam/apps/256359/capsule_sm_120.jpg?t=1631507008",
+        "valor": "R$ 199,90",
+        "sinopse": "A última aventura de Lara Croft.",
+        "avaliacoes": 4.5
+    },
+    {
+        "id": 48,
+        "nome": "Hitman 3",
+        "imagem": "https://cdn.cloudflare.steamstatic.com/steam/apps/256358/capsule_sm_120.jpg?t=1631507008",
+        "valor": "R$ 249,90",
+        "sinopse": "O ápice da série de assassinatos em mundo aberto.",
+        "avaliacoes": 4.6
+    },
+    {
+        "id": 49,
+        "nome": "Assassin's Creed Odyssey",
+        "imagem": "https://cdn.cloudflare.steamstatic.com/steam/apps/256357/capsule_sm_120.jpg?t=1631507008",
+        "valor": "R$ 199,90",
+        "sinopse": "Explore a Grécia Antiga neste RPG de ação.",
+        "avaliacoes": 4.5
+    },
+    {
+        "id": 50,
+        "nome": "Assassin's Creed Origins",
+        "imagem": "https://cdn.cloudflare.steamstatic.com/steam/apps/256356/capsule_sm_120.jpg?t=1631507008",
+        "valor": "R$ 149,90",
+        "sinopse": "A origem da irmandade dos assassinos no Egito.",
+        "avaliacoes": 4.4
     }
 ]
-
