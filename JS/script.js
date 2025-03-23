@@ -1,7 +1,23 @@
 document.addEventListener("DOMContentLoaded", function () {
     const gamesContainer = document.getElementById("games-container");
+    if (gamesContainer) {
+        carregarJogos(gamesContainer);
+    }
 
-    // Carrega os dados dos jogos
+    const searchInput = document.getElementById("search");
+    const searchResults = document.getElementById("search-results");
+
+    if (searchInput && searchResults) {
+        if (typeof Fuse === "undefined") {
+            console.error("Fuse.js não foi carregado corretamente.");
+            return;
+        }
+
+        configurarBusca(searchInput, searchResults);
+    }
+});
+
+function carregarJogos(container) {
     fetch("jogos.json")
         .then(response => response.json())
         .then(jogos => {
@@ -14,69 +30,61 @@ document.addEventListener("DOMContentLoaded", function () {
                         <h2>${jogo.nome}</h2>
                     </a>
                 `;
-                gamesContainer.appendChild(card);
+                container.appendChild(card);
             });
         })
         .catch(error => console.error("Erro ao carregar os jogos:", error));
-});
+}
 
-document.addEventListener("DOMContentLoaded", function () {
-    const searchInput = document.getElementById("search");
-    const searchResults = document.getElementById("search-results");
+function configurarBusca(searchInput, searchResults) {
+    let jogos = [];
 
-    let jogos = []; // Armazenará a lista de jogos
-
-    // Carrega os dados dos jogos
     fetch("jogos.json")
         .then(response => response.json())
         .then(data => {
-            jogos = data; // Armazena os jogos na variável
+            jogos = data;
 
-            // Configura o Fuse.js para busca aproximada
             const fuse = new Fuse(jogos, {
-                keys: ["nome", "genero", "sinopse"], // Campo que será usado para a busca
-                includeScore: true, // Inclui a pontuação de similaridade
-                threshold: 0.3, // Define o limite de similaridade (0 = exato, 1 = qualquer coisa)
+                keys: ["nome", "genero", "sinopse"],
+                includeScore: true,
+                threshold: 0.3,
             });
 
-            // Função para exibir os resultados da pesquisa
-            function exibirResultados(resultados) {
-                searchResults.innerHTML = ""; // Limpa os resultados anteriores
-
-                if (resultados.length > 0) {
-                    resultados.forEach(resultado => {
-                        const jogo = resultado.item; // O jogo correspondente
-                        const item = document.createElement("div");
-                        item.className = "result-item";
-                        item.textContent = jogo.nome;
-                        item.addEventListener("click", () => {
-                            window.location.href = `detalhes.html?id=${jogo.id}`;
-                        });
-                        searchResults.appendChild(item);
-                    });
-                    searchResults.style.display = "block"; // Exibe os resultados
-                } else {
-                    searchResults.style.display = "none"; // Esconde os resultados se não houver correspondências
-                }
-            }
-
-            // Evento de input na barra de pesquisa
             searchInput.addEventListener("input", function () {
                 const termo = this.value.trim();
                 if (termo.length > 0) {
-                    const resultados = fuse.search(termo); // Usa o Fuse.js para buscar
-                    exibirResultados(resultados);
+                    const resultados = fuse.search(termo);
+                    exibirResultados(resultados, searchResults);
                 } else {
-                    searchResults.style.display = "none"; // Esconde os resultados se o campo estiver vazio
+                    searchResults.style.display = "none";
                 }
             });
         })
         .catch(error => console.error("Erro ao carregar os jogos:", error));
 
-    // Esconde os resultados ao clicar fora da barra de pesquisa
     document.addEventListener("click", function (event) {
         if (!searchInput.contains(event.target)) {
             searchResults.style.display = "none";
         }
     });
-});
+}
+
+function exibirResultados(resultados, container) {
+    container.innerHTML = "";
+
+    if (resultados.length > 0) {
+        resultados.forEach(resultado => {
+            const jogo = resultado.item;
+            const item = document.createElement("div");
+            item.className = "result-item";
+            item.textContent = jogo.nome;
+            item.addEventListener("click", () => {
+                window.location.href = `detalhes.html?id=${jogo.id}`;
+            });
+            container.appendChild(item);
+        });
+        container.style.display = "block";
+    } else {
+        container.style.display = "none";
+    }
+}

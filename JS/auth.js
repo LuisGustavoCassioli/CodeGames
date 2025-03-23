@@ -36,14 +36,16 @@ function exibirUsuarioLogado() {
     const loginSection = document.getElementById("loginSection");
     const actionsSection = document.getElementById("actionsSection");
 
-    if (usuarioLogado) {
-        userInfo.textContent = `Olá, ${usuarioLogado.email}`;
-        loginSection.style.display = "none"; // Esconde o ícone de login
-        actionsSection.style.display = "block"; // Exibe as ações do usuário
-    } else {
-        userInfo.textContent = "";
-        loginSection.style.display = "block"; // Exibe o ícone de login
-        actionsSection.style.display = "none"; // Esconde as ações do usuário
+    if (userInfo && loginSection && actionsSection) {
+        if (usuarioLogado) {
+            userInfo.textContent = `Olá, ${usuarioLogado.email}`;
+            loginSection.style.display = "none";
+            actionsSection.style.display = "block";
+        } else {
+            userInfo.textContent = "";
+            loginSection.style.display = "block";
+            actionsSection.style.display = "none";
+        }
     }
 }
 

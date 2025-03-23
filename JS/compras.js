@@ -1,11 +1,21 @@
 document.addEventListener("DOMContentLoaded", function () {
+    // Verifica se o usuário está logado
     const usuarioLogado = JSON.parse(localStorage.getItem("usuarioLogado"));
     const listaCompras = document.getElementById("lista-compras");
 
-    if (usuarioLogado) {
-        const userInfo = document.getElementById("userInfo");
-        userInfo.textContent = `Olá, ${usuarioLogado.email}`;
+    if (!listaCompras) {
+        console.error("Elemento 'lista-compras' não encontrado.");
+        return;
+    }
 
+    if (usuarioLogado) {
+        // Exibe o e-mail do usuário logado
+        const userInfo = document.getElementById("userInfo");
+        if (userInfo) {
+            userInfo.textContent = `Olá, ${usuarioLogado.email}`;
+        }
+
+        // Verifica se há compras para exibir
         if (usuarioLogado.compras && usuarioLogado.compras.length > 0) {
             usuarioLogado.compras.forEach(jogo => {
                 const item = document.createElement("div");
@@ -18,9 +28,12 @@ document.addEventListener("DOMContentLoaded", function () {
                 listaCompras.appendChild(item);
             });
         } else {
+            // Mensagem caso não haja compras
             listaCompras.innerHTML = "<p>Você ainda não comprou nenhum jogo.</p>";
         }
     } else {
-        window.location.href = "login.html"; // Redireciona para o login se não estiver logado
+        // Redireciona para a página de login se o usuário não estiver logado
+        console.log("Usuário não logado. Redirecionando para login.html...");
+        window.location.href = "login.html";
     }
 });
