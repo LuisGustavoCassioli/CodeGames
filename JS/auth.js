@@ -8,7 +8,7 @@ function cadastrarUsuario(email, senha) {
         return;
     }
 
-    const novoUsuario = { email, senha };
+    const novoUsuario = { email, senha, compras: [] }; // Adiciona um array de compras
     usuarios.push(novoUsuario);
     localStorage.setItem("usuarios", JSON.stringify(usuarios));
     alert("Cadastro realizado com sucesso! Faça login.");
@@ -21,11 +21,37 @@ function autenticarUsuario(email, senha) {
     const usuario = usuarios.find(usuario => usuario.email === email && usuario.senha === senha);
 
     if (usuario) {
+        localStorage.setItem("usuarioLogado", JSON.stringify(usuario)); // Salva o usuário logado
         alert("Login realizado com sucesso!");
         window.location.href = "index.html"; // Redireciona para a página inicial
     } else {
         alert("E-mail ou senha incorretos.");
     }
+}
+
+// Função para exibir o usuário logado na home
+function exibirUsuarioLogado() {
+    const usuarioLogado = JSON.parse(localStorage.getItem("usuarioLogado"));
+    const userInfo = document.getElementById("userInfo");
+    const loginSection = document.getElementById("loginSection");
+    const actionsSection = document.getElementById("actionsSection");
+
+    if (usuarioLogado) {
+        userInfo.textContent = `Olá, ${usuarioLogado.email}`;
+        loginSection.style.display = "none"; // Esconde o ícone de login
+        actionsSection.style.display = "block"; // Exibe as ações do usuário
+    } else {
+        userInfo.textContent = "";
+        loginSection.style.display = "block"; // Exibe o ícone de login
+        actionsSection.style.display = "none"; // Esconde as ações do usuário
+    }
+}
+
+// Função para logout
+function logout() {
+    localStorage.removeItem("usuarioLogado");
+    alert("Você saiu da sua conta.");
+    window.location.href = "index.html";
 }
 
 // Evento de cadastro
@@ -47,3 +73,13 @@ if (document.getElementById("loginForm")) {
         autenticarUsuario(email, senha);
     });
 }
+
+// Evento de logout
+if (document.getElementById("logoutButton")) {
+    document.getElementById("logoutButton").addEventListener("click", function () {
+        logout();
+    });
+}
+
+// Exibe o usuário logado ao carregar a página
+document.addEventListener("DOMContentLoaded", exibirUsuarioLogado);

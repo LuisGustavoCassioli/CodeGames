@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Detalhes do Jogo</title>
+    <title>Minhas Compras - Buy Fast Games</title>
     <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
@@ -11,15 +11,20 @@
         <div class="logo">
             <img src="ASSETS/logo.png" alt="Buy Fast Games Logo">
         </div>
-        <div class="login">
-            <a href="login.html" aria-label="Login">
-                <i class="fas fa-user"></i>
-            </a>
+        <div class="user-info" id="userInfo">
+            <!-- Aqui será exibido o e-mail do usuário logado -->
+        </div>
+        <div class="actions">
+            <a href="index.html">Voltar para a Loja</a>
+            <button id="logoutButton">Sair</button>
         </div>
     </header>
 
-    <main class="detalhes-container" id="detalhes-container">
-        <!-- Os detalhes do jogo serão carregados aqui -->
+    <main class="container" id="compras-container">
+        <h1>Minhas Compras</h1>
+        <div id="lista-compras">
+            <!-- Os jogos comprados serão exibidos aqui -->
+        </div>
     </main>
 
     <script src="JS/detalhes.js"></script>
