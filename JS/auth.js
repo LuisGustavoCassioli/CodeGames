@@ -85,3 +85,19 @@ if (document.getElementById("logoutButton")) {
 
 // Exibe o usuário logado ao carregar a página
 document.addEventListener("DOMContentLoaded", exibirUsuarioLogado);
+
+// Função para gerar uma key aleatória (já existe no seu auth.js)
+function gerarKeyAleatoria() {
+    const caracteres = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
+    let key = '';
+    const partes = [4, 4, 4, 4]; // Formato: XXXX-XXXX-XXXX-XXXX
+    
+    partes.forEach((tamanho, index) => {
+        for (let i = 0; i < tamanho; i++) {
+            key += caracteres.charAt(Math.floor(Math.random() * caracteres.length));
+        }
+        if (index < partes.length - 1) key += '-';
+    });
+    
+    return key;
+}

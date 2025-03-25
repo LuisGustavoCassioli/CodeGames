@@ -1,5 +1,4 @@
 document.addEventListener("DOMContentLoaded", function () {
-    // Verifica se o usuário está logado
     const usuarioLogado = JSON.parse(localStorage.getItem("usuarioLogado"));
     const listaCompras = document.getElementById("lista-compras");
 
@@ -9,31 +8,62 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     if (usuarioLogado) {
-        // Exibe o e-mail do usuário logado
         const userInfo = document.getElementById("userInfo");
         if (userInfo) {
             userInfo.textContent = `Olá, ${usuarioLogado.email}`;
         }
 
-        // Verifica se há compras para exibir
+        // Verifica se há compras e se elas têm keys
         if (usuarioLogado.compras && usuarioLogado.compras.length > 0) {
+            listaCompras.innerHTML = '<h2>Suas Compras</h2>';
+            
             usuarioLogado.compras.forEach(jogo => {
+                // Verifica se a key existe, caso contrário mostra mensagem
+                const keyDisplay = jogo.key ? jogo.key : 'Key não disponível';
+                const dataDisplay = jogo.dataCompra ? new Date(jogo.dataCompra).toLocaleDateString() : 'Data não disponível';
+                
                 const item = document.createElement("div");
-                item.className = "card";
+                item.className = "card-compra";
                 item.innerHTML = `
-                    <img src="${jogo.imagem}" alt="${jogo.nome}">
-                    <h2>${jogo.nome}</h2>
-                    <p>Valor: ${jogo.valor}</p>
+                    <div class="compra-header">
+                        <img src="${jogo.imagem || 'ASSETS/default-game.png'}" alt="${jogo.nome || 'Jogo'}">
+                        <h3>${jogo.nome || 'Jogo sem nome'}</h3>
+                    </div>
+                    <div class="compra-detalhes">
+                        <p><strong>Data:</strong> ${dataDisplay}</p>
+                        <p><strong>Preço:</strong> ${jogo.valor || 'Preço não disponível'}</p>
+                        <div class="key-container">
+                            <strong>Key:</strong> 
+                            <span class="key-value">${keyDisplay}</span>
+                            ${jogo.key ? `<button class="btn-copy" data-key="${jogo.key}">Copiar</button>` : ''}
+                        </div>
+                    </div>
                 `;
                 listaCompras.appendChild(item);
             });
+
+            // Adiciona evento para copiar keys
+            document.querySelectorAll('.btn-copy').forEach(btn => {
+                btn.addEventListener('click', function() {
+                    const key = this.getAttribute('data-key');
+                    navigator.clipboard.writeText(key).then(() => {
+                        this.textContent = 'Copiado!';
+                        setTimeout(() => {
+                            this.textContent = 'Copiar';
+                        }, 2000);
+                    });
+                });
+            });
         } else {
-            // Mensagem caso não haja compras
-            listaCompras.innerHTML = "<p>Você ainda não comprou nenhum jogo.</p>";
+            listaCompras.innerHTML = `
+                <div class="empty-compras">
+                    <i class="fas fa-gamepad"></i>
+                    <p>Você ainda não comprou nenhum jogo</p>
+                    <a href="index.html" class="btn">Ver jogos disponíveis</a>
+                </div>
+            `;
         }
     } else {
-        // Redireciona para a página de login se o usuário não estiver logado
-        console.log("Usuário não logado. Redirecionando para login.html...");
         window.location.href = "login.html";
     }
 });
