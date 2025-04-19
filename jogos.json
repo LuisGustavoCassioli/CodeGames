@@ -42,15 +42,15 @@
     {
         "id": 6,
         "nome": "Call of Duty: Modern Warfare",
-        "imagem": "https://cdn.cloudflare.steamstatic.com/steam/apps/256400/capsule_sm_120.jpg?t=1631507008",
+        "imagem": "https://image.api.playstation.com/cdn/UP0002/CUSA15240_00/iteYPVeiDDVwzYsnL9RZBCDhhkBTLSD8.png",
         "valor": "R$ 199,90",
         "sinopse": "Um FPS intenso com gráficos realistas.",
         "avaliacoes": 4.6
     },
     {
         "id": 7,
-        "nome": "FIFA 23",
-        "imagem": "https://cdn.cloudflare.steamstatic.com/steam/apps/256399/capsule_sm_120.jpg?t=1631507008",
+        "nome": "FC 24",
+        "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202503/2520/f3c135f8ebdc50b782c6f5f02b27130b499e22847f05aee6.png?w=440&thumb=false",
         "valor": "R$ 299,90",
         "sinopse": "O mais recente jogo de futebol da EA Sports.",
         "avaliacoes": 4.3
@@ -58,7 +58,7 @@
     {
         "id": 8,
         "nome": "Battlefield 2042",
-        "imagem": "https://cdn.cloudflare.steamstatic.com/steam/apps/256398/capsule_sm_120.jpg?t=1631507008",
+        "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202305/2515/586f0b4d3c158e5dcae2c7c0bc589df078bc9bf955b1ceae.png?w=440&thumb=false",
         "valor": "R$ 249,90",
         "sinopse": "Guerra em grande escala no futuro próximo.",
         "avaliacoes": 3.9
@@ -66,7 +66,7 @@
     {
         "id": 9,
         "nome": "Horizon Forbidden West",
-        "imagem": "https://cdn.cloudflare.steamstatic.com/steam/apps/256397/capsule_sm_120.jpg?t=1631507008",
+        "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202107/3100/ki0STHGAkIF06Q4AU8Ow4OkV.png?w=440&thumb=false",
         "valor": "R$ 349,90",
         "sinopse": "Aventura em um mundo pós-apocalíptico cheio de máquinas.",
         "avaliacoes": 4.7
@@ -74,7 +74,7 @@
     {
         "id": 10,
         "nome": "God of War",
-        "imagem": "https://cdn.cloudflare.steamstatic.com/steam/apps/256396/capsule_sm_120.jpg?t=1631507008",
+        "imagem": "https://image.api.playstation.com/vulcan/img/rnd/202010/2217/RnDzysOs81fdvhdQAHYtxjFT.png?w=440&thumb=false",
         "valor": "R$ 199,90",
         "sinopse": "A jornada de Kratos e seu filho Atreus.",
         "avaliacoes": 4.9
@@ -82,7 +82,7 @@
     {
         "id": 11,
         "nome": "Spider-Man: Miles Morales",
-        "imagem": "https://cdn.cloudflare.steamstatic.com/steam/apps/256395/capsule_sm_120.jpg?t=1631507008",
+        "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202008/1020/T45iRN1bhiWcJUzST6UFGBvO.png?w=440&thumb=false",
         "valor": "R$ 249,90",
         "sinopse": "Aventura do Homem-Aranha em Nova York.",
         "avaliacoes": 4.6
@@ -90,23 +90,15 @@
     {
         "id": 12,
         "nome": "The Last of Us Part II",
-        "imagem": "https://cdn.cloudflare.steamstatic.com/steam/apps/256394/capsule_sm_120.jpg?t=1631507008",
+        "imagem": "https://image.api.playstation.com/vulcan/img/rnd/202010/2618/w48z6bzefZPrRcJHc7L8SO66.png?w=440&thumb=false",
         "valor": "R$ 299,90",
         "sinopse": "Uma emocionante história de sobrevivência e vingança.",
         "avaliacoes": 4.8
     },
     {
-        "id": 13,
-        "nome": "Halo Infinite",
-        "imagem": "https://cdn.cloudflare.steamstatic.com/steam/apps/256393/capsule_sm_120.jpg?t=1631507008",
-        "valor": "R$ 249,90",
-        "sinopse": "A mais nova aventura do Master Chief.",
-        "avaliacoes": 4.4
-    },
-    {
         "id": 14,
         "nome": "Forza Horizon 5",
-        "imagem": "https://cdn.cloudflare.steamstatic.com/steam/apps/256392/capsule_sm_120.jpg?t=1631507008",
+        "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202501/2717/42b3ee6b1b2094212231b0b0a82824f687fc5c4dc9bde31c.png?w=440&thumb=false",
         "valor": "R$ 299,90",
         "sinopse": "Corridas emocionantes no México.",
         "avaliacoes": 4.7
@@ -114,7 +106,7 @@
     {
         "id": 15,
         "nome": "Resident Evil Village",
-        "imagem": "https://cdn.cloudflare.steamstatic.com/steam/apps/256391/capsule_sm_120.jpg?t=1631507008",
+        "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202101/0812/FkzwjnJknkrFlozkTdeQBMub.png?w=440&thumb=false",
         "valor": "R$ 199,90",
         "sinopse": "Terror e ação em um vilarejo assustador.",
         "avaliacoes": 4.5
@@ -122,7 +114,7 @@
     {
         "id": 16,
         "nome": "Death Stranding",
-        "imagem": "https://cdn.cloudflare.steamstatic.com/steam/apps/256390/capsule_sm_120.jpg?t=1631507008",
+        "imagem": "https://image.api.playstation.com/vulcan/img/rnd/202009/2921/40aD0BqRUHyHdXdC6nwtwON5.png?w=440&thumb=false",
         "valor": "R$ 199,90",
         "sinopse": "Uma jornada única em um mundo pós-apocalíptico.",
         "avaliacoes": 4.3
@@ -130,7 +122,7 @@
     {
         "id": 17,
         "nome": "Sekiro: Shadows Die Twice",
-        "imagem": "https://cdn.cloudflare.steamstatic.com/steam/apps/256389/capsule_sm_120.jpg?t=1631507008",
+        "imagem": "https://image.api.playstation.com/vulcan/img/rnd/202010/2723/knxU5uU5aKvQChKX5OvWtSGC.png?w=440&thumb=false",
         "valor": "R$ 199,90",
         "sinopse": "Um jogo de ação desafiador no Japão feudal.",
         "avaliacoes": 4.6
@@ -138,7 +130,7 @@
     {
         "id": 18,
         "nome": "Doom Eternal",
-        "imagem": "https://cdn.cloudflare.steamstatic.com/steam/apps/256388/capsule_sm_120.jpg?t=1631507008",
+        "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202010/0114/ERNPc4gFqeRDG1tYQIfOKQtM.png?w=440&thumb=false",
         "valor": "R$ 199,90",
         "sinopse": "Ação frenética contra demônios.",
         "avaliacoes": 4.7
@@ -146,7 +138,7 @@
     {
         "id": 19,
         "nome": "Control",
-        "imagem": "https://cdn.cloudflare.steamstatic.com/steam/apps/256387/capsule_sm_120.jpg?t=1631507008",
+        "imagem": "https://image.api.playstation.com/vulcan/img/rnd/202009/1409/LOjeGQPXg7C1yoMmhsKYOwfa.png?w=440&thumb=false",
         "valor": "R$ 149,90",
         "sinopse": "Um jogo de ação e mistério em um prédio sobrenatural.",
         "avaliacoes": 4.4
@@ -154,7 +146,7 @@
     {
         "id": 20,
         "nome": "Ghost of Tsushima",
-        "imagem": "https://cdn.cloudflare.steamstatic.com/steam/apps/256386/capsule_sm_120.jpg?t=1631507008",
+        "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202106/2322/c16gs6a7lbAYzPf7ZTikbH1c.png?w=440&thumb=false",
         "valor": "R$ 299,90",
         "sinopse": "Aventura samurai na ilha de Tsushima.",
         "avaliacoes": 4.8
@@ -162,7 +154,7 @@
     {
         "id": 21,
         "nome": "Demon's Souls",
-        "imagem": "https://cdn.cloudflare.steamstatic.com/steam/apps/256385/capsule_sm_120.jpg?t=1631507008",
+        "imagem": "https://image.api.playstation.com/vulcan/img/rnd/202011/1717/GemRaOZaCMhGxQ9dRhnQQyT5.png?w=440&thumb=false",
         "valor": "R$ 349,90",
         "sinopse": "Um remake do clássico jogo de ação e RPG.",
         "avaliacoes": 4.7
@@ -170,7 +162,7 @@
     {
         "id": 22,
         "nome": "Final Fantasy VII Remake",
-        "imagem": "https://cdn.cloudflare.steamstatic.com/steam/apps/256384/capsule_sm_120.jpg?t=1631507008",
+        "imagem": "https://image.api.playstation.com/vulcan/img/cfn/11307-dNapclgq_VqNtQ98Xp_LxovvAdjd5AknZhd_-k2Cckq9FPtKDXAHk-ODCfvDKChH6hkEO0VLtj7Vk4E-Z8G707oe0N.png?w=440&thumb=false",
         "valor": "R$ 299,90",
         "sinopse": "O clássico RPG reimaginado.",
         "avaliacoes": 4.8
@@ -178,7 +170,7 @@
     {
         "id": 23,
         "nome": "Persona 5 Royal",
-        "imagem": "https://cdn.cloudflare.steamstatic.com/steam/apps/256383/capsule_sm_120.jpg?t=1631507008",
+        "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202209/0202/OjPcc6QP2W8kImOhWSnzojn3.png?w=440&thumb=false",
         "valor": "R$ 249,90",
         "sinopse": "Um RPG cheio de estilo e personalidade.",
         "avaliacoes": 4.9
@@ -186,7 +178,7 @@
     {
         "id": 24,
         "nome": "Monster Hunter: World",
-        "imagem": "https://cdn.cloudflare.steamstatic.com/steam/apps/256382/capsule_sm_120.jpg?t=1631507008",
+        "imagem": "https://image.api.playstation.com/vulcan/img/rnd/202008/1803/UIULUSArKlniav8B2FjWWXYo.png?w=440&thumb=false",
         "valor": "R$ 199,90",
         "sinopse": "Caça monstros em um mundo vasto e detalhado.",
         "avaliacoes": 4.6
@@ -194,7 +186,7 @@
     {
         "id": 25,
         "nome": "Apex Legends",
-        "imagem": "https://cdn.cloudflare.steamstatic.com/steam/apps/256381/capsule_sm_120.jpg?t=1631507008",
+        "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202502/0418/f64f8ffadc7e1165af6260e342b5b89af3c84cf40517be05.png?w=440&thumb=false",
         "valor": "Gratuito",
         "sinopse": "Um battle royale cheio de ação e estratégia.",
         "avaliacoes": 4.5
@@ -202,7 +194,7 @@
     {
         "id": 26,
         "nome": "Destiny 2",
-        "imagem": "https://cdn.cloudflare.steamstatic.com/steam/apps/256380/capsule_sm_120.jpg?t=1631507008",
+        "imagem": "https://image.api.playstation.com/vulcan/img/rnd/202011/0400/3PetyfDv6TpzxVQtBKYnWq8o.png?w=440&thumb=false",
         "valor": "Gratuito",
         "sinopse": "Um FPS com elementos de RPG e mundo aberto.",
         "avaliacoes": 4.4
@@ -210,7 +202,7 @@
     {
         "id": 27,
         "nome": "Overwatch 2",
-        "imagem": "https://cdn.cloudflare.steamstatic.com/steam/apps/256379/capsule_sm_120.jpg?t=1631507008",
+        "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202403/1223/dd7f717e51bad6912fef3afebd64f873a5bdb4c8e10af6bb.png?w=440&thumb=false",
         "valor": "Gratuito",
         "sinopse": "Um FPS tático com heróis únicos.",
         "avaliacoes": 4.3
@@ -218,7 +210,7 @@
     {
         "id": 28,
         "nome": "Rainbow Six Siege",
-        "imagem": "https://cdn.cloudflare.steamstatic.com/steam/apps/256378/capsule_sm_120.jpg?t=1631507008",
+        "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202209/0617/eiXonwxcJH00bkGo3G6lUm9t.png?w=440&thumb=false",
         "valor": "R$ 99,90",
         "sinopse": "Um FPS tático com operações de resgate e defesa.",
         "avaliacoes": 4.6

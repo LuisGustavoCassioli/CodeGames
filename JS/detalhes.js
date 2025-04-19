@@ -1,17 +1,14 @@
 // Função para gerar key aleatória (adicionada no início do arquivo)
 function gerarKeyAleatoria() {
-    const caracteres = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
+    const chars = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789'; // Remove caracteres ambíguos (I,1,O,0)
     let key = '';
-    const partes = [4, 4, 4, 4]; // Formato: XXXX-XXXX-XXXX-XXXX
-    
-    for (let i = 0; i < partes.length; i++) {
-        for (let j = 0; j < partes[i]; j++) {
-            key += caracteres.charAt(Math.floor(Math.random() * caracteres.length));
+    for (let i = 0; i < 3; i++) {
+        for (let j = 0; j < 5; j++) {
+            key += chars.charAt(Math.floor(Math.random() * chars.length));
         }
-        if (i < partes.length - 1) key += '-';
+        if (i < 2) key += '-';
     }
-    
-    return key;
+    return key; // Retorna no formato: XXXXX-XXXXX-XXXXX
 }
 
 document.addEventListener("DOMContentLoaded", function () {
@@ -64,7 +61,7 @@ function comprarJogo(jogoId, botaoCompra) {
         .then(response => response.json())
         .then(jogos => {
             const jogoComprado = jogos.find(jogo => jogo.id == jogoId);
-
+const jogoJaComprado = usuarioLogado.compras?.some(compra => compra.id === jogoId);
             if (jogoComprado) {
                 // Inicializa array de compras se não existir
                 if (!usuarioLogado.compras) {
@@ -72,7 +69,7 @@ function comprarJogo(jogoId, botaoCompra) {
                 }
 
                 // Verifica se o jogo já foi comprado
-                const jogoJaComprado = usuarioLogado.compras.some(compra => compra.id == jogoId);
+                const jogoJaComprado = usuarioLogado.compras?.some(compra => compra.id === jogoId);
                 if (jogoJaComprado) {
                     alert("Você já comprou este jogo.");
                     return;
