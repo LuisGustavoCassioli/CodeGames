@@ -479,6 +479,104 @@ header .login a:hover {
   border-radius: 5px;
 }
 
+/* Estilos do Footer */
+.site-footer {
+  background-color: #3d2c50;
+  color: #ecf0f1;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-section {
+  margin: 10px;
+  min-width: 200px;
+}
+
+.footer-section h3 {
+  border-bottom: 2px solid #e74c3c;
+  padding-bottom: 5px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li a {
+  color: #ecf0f1;
+  text-decoration: none;
+}
+
+.social-icons {
+  font-size: 24px;
+}
+
+.social-icons a {
+  color: #ecf0f1;
+  margin: 0 10px;
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+  .footer-content {
+      flex-direction: column;
+  }
+}
+
+/* Estilos do Popup de Cookies */
+.cookie-popup {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  max-width: 500px;
+  background-color: #2c3e50;
+  color: #ecf0f1;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+  display: none; /* Inicialmente oculto */
+}
+
+.cookie-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.cookie-buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+}
+
+.cookie-btn {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#accept-cookies {
+  background-color: #e74c3c;
+  color: white;
+}
+
+#reject-cookies {
+  background-color: #7f8c8d;
+  color: white;
+}
+
 /* Responsiveness */
 @media (max-width: 1200px) {
   .container {

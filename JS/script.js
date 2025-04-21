@@ -88,3 +88,25 @@ function exibirResultados(resultados, container) {
         container.style.display = "none";
     }
 }
+
+// Atualiza o ano no copyright
+document.getElementById("current-year").textContent = new Date().getFullYear();
+
+ // Verifica se o usuário já aceitou os cookies
+ if (!localStorage.getItem('cookies-accepted')) {
+    document.getElementById('cookie-popup').style.display = 'block';
+  }
+
+  // Botão "Aceitar"
+  document.getElementById('accept-cookies').addEventListener('click', function() {
+    localStorage.setItem('cookies-accepted', 'true');
+    document.getElementById('cookie-popup').style.display = 'none';
+    // Aqui você pode adicionar cookies reais se necessário
+  });
+
+  // Botão "Recusar"
+  document.getElementById('reject-cookies').addEventListener('click', function() {
+    document.getElementById('cookie-popup').style.display = 'none';
+    // Opcional: Armazenar preferência de rejeição
+    localStorage.setItem('cookies-accepted', 'false');
+  });
