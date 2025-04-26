@@ -30,6 +30,7 @@ function autenticarUsuario(email, senha) {
 }
 
 // Função para exibir o usuário logado na home
+// Modifique a função exibirUsuarioLogado
 function exibirUsuarioLogado() {
     const usuarioLogado = JSON.parse(localStorage.getItem("usuarioLogado"));
     const userInfo = document.getElementById("userInfo");
@@ -46,6 +47,11 @@ function exibirUsuarioLogado() {
             loginSection.style.display = "block";
             actionsSection.style.display = "none";
         }
+    }
+    
+    // Atualiza o contador do carrinho
+    if (window.atualizarContadorCarrinho) {
+        atualizarContadorCarrinho();
     }
 }
 

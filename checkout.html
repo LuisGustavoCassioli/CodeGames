@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout - Buy Fast Games</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="ASSETS/logo.png" alt="Buy Fast Games Logo">
+        </div>
+        <div class="search">
+            <input type="search" id="search" placeholder="Type here to search" aria-label="Search">
+            <i class="fas fa-search" aria-hidden="true"></i>
+            <div class="search-results" id="search-results"></div>
+        </div>
+        <div class="carrinho-icon">
+            <a href="carrinho.html" aria-label="Carrinho">
+                <i class="fas fa-shopping-cart"></i>
+                <span class="carrinho-contador" id="carrinhoContador">0</span>
+            </a>
+        </div>
+        <div class="login" id="loginSection">
+            <a href="login.html" aria-label="Login">
+                <i class="fas fa-user"></i>
+            </a>
+        </div>
+        <div class="user-info" id="userInfo"></div>
+        <div class="actions" id="actionsSection">
+            <a href="compras.html" id="comprasLink">Minhas Compras</a>
+            <button id="logoutButton">Sair</button>
+        </div>
+    </header>
+
+    <main class="checkout-container">
+        <h1>Finalizar Compra</h1>
+        <section class="checkout-itens" id="checkout-itens">
+            <!-- Itens do carrinho serão carregados aqui -->
+        </section>
+        <section class="checkout-resumo">
+            <h2>Resumo do Pedido</h2>
+            <div class="resumo-detalhes">
+                <p>Total: <span id="checkout-total">R$ 0,00</span></p>
+            </div>
+        </section>
+        <section class="checkout-pagamento">
+            <h2>Forma de Pagamento</h2>
+            <form id="payment-form">
+                <div class="payment-methods">
+                    <label>
+                        <input type="radio" name="payment-method" value="credit" checked>
+                        Cartão de Crédito
+                    </label>
+                    <label>
+                        <input type="radio" name="payment-method" value="pix">
+                        Pix
+                    </label>
+                    <label>
+                        <input type="radio" name="payment-method" value="paypal">
+                        PayPal
+                    </label>
+                </div>
+                <div id="payment-details" class="payment-details">
+                    <!-- Detalhes do pagamento serão carregados aqui -->
+                </div>
+                <button type="submit" class="btn-finalizar">Confirmar Pagamento</button>
+            </form>
+        </section>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+    <script src="JS/checkout.js"></script>
+</body>
+</html>

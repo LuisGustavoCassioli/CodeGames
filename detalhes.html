@@ -5,16 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Detalhes do Jogo</title>
     <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
     <header>
         <div class="logo">
             <img src="ASSETS/logo.png" alt="Buy Fast Games Logo">
         </div>
-        <div class="login">
+        <div class="search">
+            <input type="search" id="search" placeholder="Type here to search" aria-label="Search"> 
+            <i class="fas fa-search" aria-hidden="true"></i>
+            <div class="search-results" id="search-results"></div>
+        </div>
+    
+        <div class="carrinho-icon">
+            <a href="carrinho.html" aria-label="Carrinho">
+                <i class="fas fa-shopping-cart"></i>
+                <span class="carrinho-contador" id="carrinhoContador">0</span>
+            </a>
+        </div>
+        
+        <div class="login" id="loginSection">
             <a href="login.html" aria-label="Login">
                 <i class="fas fa-user"></i>
             </a>
+        </div>
+        
+        <div class="user-info" id="userInfo">
+            <!-- Conteúdo dinâmico -->
+        </div>
+        
+        <div class="actions" id="actionsSection">
+            <a href="compras.html" id="comprasLink">Minhas Compras</a>
+            <button id="logoutButton">Sair</button>
         </div>
     </header>
 
@@ -25,5 +48,6 @@
     <script src="JS/detalhes.js"></script>
     <script src="JS/auth.js"></script>
     <script src="JS/script.js"></script>
+    <script src="JS/carrinho.js"></script>
 </body>
 </html>

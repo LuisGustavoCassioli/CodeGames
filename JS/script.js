@@ -110,3 +110,12 @@ document.getElementById("current-year").textContent = new Date().getFullYear();
     // Opcional: Armazenar preferência de rejeição
     localStorage.setItem('cookies-accepted', 'false');
   });
+
+  function atualizarContadorCarrinho() {
+    const carrinho = JSON.parse(localStorage.getItem("carrinho")) || [];
+    const contador = document.getElementById("carrinhoContador");
+    if (contador) {
+        contador.textContent = carrinho.length;
+        contador.style.display = carrinho.length > 0 ? "flex" : "none";
+    }
+}

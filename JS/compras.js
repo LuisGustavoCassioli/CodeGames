@@ -67,6 +67,3 @@ document.addEventListener("DOMContentLoaded", function () {
         window.location.href = "login.html";
     }
 });
-
-alert(`Compra realizada! Key: ${key}`);
-window.location.href = "compras.html"; // Redireciona para a página de compras

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Minhas Compras - Buy Fast Games</title>
+    <title>Carrinho - Buy Fast Games</title>
     <link rel="stylesheet" href="CSS/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
@@ -41,16 +41,24 @@
         </div>
     </header>
 
-    <main class="compras-container">
-        <h1>Minhas Compras</h1>
-        <div id="lista-compras" class="lista-compras"></div>
+    <main class="carrinho-container">
+        <h1>Seu Carrinho</h1>
+        <div id="carrinho-itens" class="carrinho-itens">
+            <!-- Itens do carrinho serão carregados aqui -->
+        </div>
+        <div class="carrinho-resumo">
+            <h2>Resumo do Pedido</h2>
+            <div class="resumo-detalhes">
+                <p>Subtotal: <span id="subtotal">R$ 0,00</span></p>
+                <p>Descontos: <span id="descontos">R$ 0,00</span></p>
+                <p class="total">Total: <span id="total">R$ 0,00</span></p>
+            </div>
+            <button id="finalizar-compra" class="btn-finalizar">Finalizar Compra</button>
+        </div>
     </main>
-    
 
-    <!-- Carrega apenas o script necessário -->
-    <script src="JS/compras.js"></script>
-   
-<script src="JS/auth.js"></script>
-<script src="JS/script.js"></script>
+    <script src="JS/carrinho.js"></script>
+    <script src="JS/auth.js"></script>
+    <script src="JS/script.js"></script>
 </body>
 </html>
