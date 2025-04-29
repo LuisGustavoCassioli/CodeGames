@@ -25,17 +25,22 @@ document.addEventListener("DOMContentLoaded", function () {
             const jogo = jogos.find(j => j.id == jogoId);
             if (jogo) {
                 detalhesContainer.innerHTML = `
-                    <div class="detalhes-jogo">
-        <img src="${jogo.imagem}" alt="${jogo.nome}">
-        <h1>${jogo.nome}</h1>
-        <p class="valor">${jogo.valor}</p>
-        <button class="btn-comprar" data-id="${jogo.id}">Comprar</button>
+  <div class="detalhes-jogo">
+    <img src="${jogo.imagem}" alt="${jogo.nome}">
+    <div class="detalhes-info">
+      <h1>${jogo.nome}</h1>
+      <p class="valor">${jogo.valor}</p>
+      <div class="detalhes-botoes">
         <button class="btn-carrinho" data-id="${jogo.id}">Adicionar ao Carrinho</button>
-        <p class="mensagem-sucesso" style="display: none; color: green;">Comprado!</p>
-        <p class="sinopse">${jogo.sinopse}</p>
-        <p class="avaliacoes">Avaliação: ${jogo.avaliacoes}/5</p>
+        <button class="btn-comprar" data-id="${jogo.id}">Comprar</button>
+      </div>
+      <p class="avaliacoes">Avaliação: ${jogo.avaliacoes}/5</p>
+      <p class="sinopse">${jogo.sinopse}</p>
+      <p class="mensagem-sucesso" style="display: none; color: green;">Comprado!</p>
     </div>
-            `;
+  </div>
+`;
+
 
 
             
