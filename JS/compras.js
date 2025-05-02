@@ -59,7 +59,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 <div class="empty-compras">
                     <i class="fas fa-gamepad"></i>
                     <p>Você ainda não comprou nenhum jogo</p>
-                    <a href="index.html" class="btn">Ver jogos disponíveis</a>
+                    <a href="Index.html" class="btn">Ver jogos disponíveis</a>
                 </div>
             `;
         }

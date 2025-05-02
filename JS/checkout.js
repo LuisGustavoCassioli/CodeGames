@@ -385,7 +385,7 @@ function showSuccessMessage(data, paymentForm) {
         </div>
     `;
     document.getElementById("back-to-store").addEventListener("click", () => {
-        window.location.href = "index.html";
+        window.location.href = "Index.html";
     });
 }
 

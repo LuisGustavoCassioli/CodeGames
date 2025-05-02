@@ -59,7 +59,7 @@ document.addEventListener("DOMContentLoaded", function () {
             <div class="carrinho-vazio">
                 <i class="fas fa-shopping-cart"></i>
                 <p>Seu carrinho está vazio</p>
-                <a href="index.html" class="btn">Continuar comprando</a>
+                <a href="Index.html" class="btn">Continuar comprando</a>
             </div>
         `;
         const carrinhoResumo = document.querySelector(".carrinho-resumo");
