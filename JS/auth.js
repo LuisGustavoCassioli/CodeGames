@@ -23,7 +23,7 @@ function autenticarUsuario(email, senha) {
     if (usuario) {
         localStorage.setItem("usuarioLogado", JSON.stringify(usuario)); // Salva o usuário logado
         alert("Login realizado com sucesso!");
-        window.location.href = "index.html"; // Redireciona para a página inicial
+        window.location.href = "Index.html"; // Redireciona para a página inicial
     } else {
         alert("E-mail ou senha incorretos.");
     }
@@ -59,7 +59,7 @@ function exibirUsuarioLogado() {
 function logout() {
     localStorage.removeItem("usuarioLogado");
     alert("Você saiu da sua conta.");
-    window.location.href = "index.html";
+    window.location.href = "Index.html";
 }
 
 // Evento de cadastro
