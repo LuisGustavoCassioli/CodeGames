@@ -49,7 +49,7 @@
     },
     {
         "id": 7,
-        "nome": "FC 24",
+        "nome": "FC 25",
         "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202503/2520/f3c135f8ebdc50b782c6f5f02b27130b499e22847f05aee6.png",
         "valor": "R$ 149,95",
         "sinopse": "O mais recente jogo de futebol da EA Sports.",
@@ -98,7 +98,7 @@
     {
         "id": 13,
         "nome": "Forza Horizon 5",
-        "imagem": "https://store-images.s-microsoft.com/image/apps.14361.14102193805786390.6e8b4b8f-6a4b-4e7e-9b8a-5b1d9f5e5c7b.3c8c7d1b-5f7e-4f8a-9c2d-8e9f9f5e5c7b",
+        "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202501/2717/42b3ee6b1b2094212231b0b0a82824f687fc5c4dc9bde31c.png?w=440&thumb=false",
         "valor": "R$ 149,95",
         "sinopse": "Corridas emocionantes no México.",
         "avaliacoes": 4.7
@@ -114,7 +114,7 @@
     {
         "id": 15,
         "nome": "Death Stranding",
-        "imagem": "https://image.api.playstation.com/vulcan/img/rnd/202009/2921/40aD0BqRUHyHdXdC6nwtwON5.png",
+        "imagem": "https://image.api.playstation.com/vulcan/img/rnd/202009/2921/40aD0BqRUHyHdXdC6nwtwON5.png?w=440&thumb=false",
         "valor": "R$ 99,95",
         "sinopse": "Uma jornada única em um mundo pós-apocalíptico.",
         "avaliacoes": 4.3
@@ -218,7 +218,7 @@
     {
         "id": 28,
         "nome": "Far Cry 6",
-        "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202105/2106/5c0f8c6b5a8e4c7e8f4a1f2c9d0e9f5e.png",
+        "imagem": "https://image.api.playstation.com/vulcan/img/rnd/202106/1514/xqoTYwf0S55ro6fwcIIY1KI4.png?w=440&thumb=false",
         "valor": "R$ 124,95",
         "sinopse": "Ação em um mundo aberto cheio de perigos.",
         "avaliacoes": 4.2
@@ -226,1557 +226,614 @@
     {
         "id": 29,
         "nome": "Watch Dogs: Legion",
-        "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202006/1521/7lAWr9EHwZBlI1M2H2RVyW2v.png",
+        "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202007/0217/OX5mEmwgRPeSQrhGFU3n4moZ.png?w=440&thumb=false",
         "valor": "R$ 99,95",
         "sinopse": "Hackeie e lute contra um regime opressor em Londres.",
         "avaliacoes": 4.1
     },
     {
         "id": 30,
-        "nome": "Marvel's Avengers",
-        "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202005/2915/Zoq2gT2gC7bC1hF5lmmTbpT8.png",
-        "valor": "R$ 74,95",
-        "sinopse": "Jogue como os heróis da Marvel em uma aventura épica.",
-        "avaliacoes": 3.9
-    },
-    {
-        "id": 31,
         "nome": "Star Wars Jedi: Fallen Order",
-        "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202005/2915/8gKFbCoz1kpG7aMCr39e9kVs.png",
+        "imagem": "https://image.api.playstation.com/vulcan/img/rnd/202105/1714/WHeOu95nW2SZQy6H5IKgE2Bg.png?w=440&thumb=false",
         "valor": "R$ 99,95",
         "sinopse": "Uma aventura de Star Wars cheia de ação.",
         "avaliacoes": 4.5
     },
     {
-        "id": 32,
+        "id": 31,
         "nome": "Borderlands 3",
-        "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202005/2915/5eL2gT2gC7bC1hF5lmmTbpT8.png",
+        "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202010/2323/p50N4PBK9rNanGYKFecTvac5.png?w=440&thumb=false",
         "valor": "R$ 99,95",
         "sinopse": "Um FPS com muito humor e loot.",
         "avaliacoes": 4.4
     },
     {
-        "id": 33,
+        "id": 32,
         "nome": "The Outer Worlds",
-        "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202005/2915/4eL2gT2gC7bC1hF5lmmTbpT8.png",
+        "imagem": "https://image.api.playstation.com/vulcan/img/cfn/11307wMjfgx5P1og84rPU_f7JRWHhWnbDWqpjfHfMPGtwxykE12sZmu8C7n0XrhYwLTdxcQyXwH4Jy4JpS67tQd5Gl0Kd5Rz.png?w=440&thumb=false",
         "valor": "R$ 74,95",
         "sinopse": "Um RPG de ficção científica com escolhas impactantes.",
         "avaliacoes": 4.3
     },
     {
-        "id": 34,
+        "id": 33,
         "nome": "Metro Exodus",
-        "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202005/2915/3eL2gT2gC7bC1hF5lmmTbpT8.png",
+        "imagem": "https://image.api.playstation.com/vulcan/img/rnd/202010/2814/jhNIE3yH1SNEe9CmxTVHAdme.png?w=440&thumb=false",
         "valor": "R$ 99,95",
         "sinopse": "Sobreviva em um mundo pós-apocalíptico.",
         "avaliacoes": 4.5
     },
     {
-        "id": 35,
+        "id": 34,
         "nome": "Days Gone",
-        "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202005/2915/2eL2gT2gC7bC1hF5lmmTbpT8.png",
+        "imagem": "https://image.api.playstation.com/vulcan/img/rnd/202011/1204/wYL4v2r8uMQFvVTJlfuj8ICk.png?w=440&thumb=false",
         "valor": "R$ 99,95",
         "sinopse": "Sobreviva a hordas de zumbis em um mundo aberto.",
         "avaliacoes": 4.2
     },
     {
-        "id": 36,
+        "id": 35,
         "nome": "Nioh 2",
-        "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202005/2915/1eL2gT2gC7bC1hF5lmmTbpT8.png",
+        "imagem": "https://image.api.playstation.com/vulcan/img/rnd/202011/0623/OKKpWNnsCZpURW2N6nnhMcj6.png?w=440&thumb=false",
         "valor": "R$ 124,95",
         "sinopse": "Um jogo de ação desafiador no Japão feudal.",
         "avaliacoes": 4.6
     },
     {
-        "id": 37,
+        "id": 36,
         "nome": "Mortal Kombat 11",
-        "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202005/2915/0eL2gT2gC7bC1hF5lmmTbpT8.png",
+        "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202009/0123/bF1qmEL5RM6aMfL0oLcxRe8B.png?w=440&thumb=false",
         "valor": "R$ 99,95",
         "sinopse": "O clássico jogo de luta com gráficos impressionantes.",
         "avaliacoes": 4.5
     },
     {
-        "id": 38,
+        "id": 37,
         "nome": "Street Fighter V",
-        "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202005/2915/ZeL2gT2gC7bC1hF5lmmTbpT8.png",
+        "imagem": "https://image.api.playstation.com/vulcan/img/cfn/11307MTvkumhOsLQiA_3g0ZbFhLnHOOWVw3qR4Rum7sKAh8I3THtbG0aa-P7dF7-miXzo1ceqN897MfxYZ7Qx-GaEZs8kq4X.png?w=440&thumb=false",
         "valor": "R$ 49,95",
         "sinopse": "O famoso jogo de luta agora com novos personagens.",
         "avaliacoes": 4.3
     },
     {
-        "id": 39,
+        "id": 38,
         "nome": "Tekken 7",
-        "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202005/2915/YeL2gT2gC7bC1hF5lmmTbpT8.png",
+        "imagem": "https://image.api.playstation.com/cdn/UP0700/CUSA05972_00/4yfeeKKfJdD5WzDQsoiM3xrcqPlpDLm7.png?w=440&thumb=false",
         "valor": "R$ 74,95",
         "sinopse": "O clássico jogo de luta com gráficos incríveis.",
         "avaliacoes": 4.4
     },
     {
-        "id": 40,
+        "id": 39,
         "nome": "Dragon Ball FighterZ",
-        "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202005/2915/XeL2gT2gC7bC1hF5lmmTbpT8.png",
+        "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202402/2113/75688eb251157224e90103808304bda94ce6996123bf07a4.png?w=440&thumb=false",
         "valor": "R$ 99,95",
         "sinopse": "Um jogo de luta com os personagens de Dragon Ball.",
         "avaliacoes": 4.6
     },
     {
-        "id": 41,
+        "id": 40,
         "nome": "Injustice 2",
-        "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202005/2915/WeL2gT2gC7bC1hF5lmmTbpT8.png",
+        "imagem": "https://image.api.playstation.com/vulcan/img/cfn/113070iqJ5_6lv6FCFMn0yO46dQBHXeIRL_0c47E-7cGfFU0DdpFd4mpcaGsrn0Jl40xpsUIbrdsPNE8iUvAcd8uZRMJjzPQ.png?w=440&thumb=false",
         "valor": "R$ 74,95",
         "sinopse": "Um jogo de luta com os heróis da DC Comics.",
         "avaliacoes": 4.5
     },
     {
-        "id": 42,
+        "id": 41,
         "nome": "The Division 2",
-        "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202005/2915/VeL2gT2gC7bC1hF5lmmTbpT8.png",
+        "imagem": "https://image.api.playstation.com/cdn/UP0001/CUSA01810_00/WfVu2tK9zAEyixc9ACGbvdEoXWibl2fx.png?w=440&thumb=false",
         "valor": "R$ 49,95",
         "sinopse": "Um RPG de tiro em um mundo pós-apocalíptico.",
         "avaliacoes": 4.2
     },
     {
-        "id": 43,
+        "id": 42,
         "nome": "Anthem",
-        "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202005/2915/UeL2gT2gC7bC1hF5lmmTbpT8.png",
+        "imagem": "https://image.api.playstation.com/cdn/UP0006/CUSA05364_00/gjCgeoTXj3tkivbFKYMUbtC8ZRLgosSS.png?w=440&thumb=false",
         "valor": "R$ 24,95",
         "sinopse": "Um RPG de ação com exoesqueletos e muita aventura.",
         "avaliacoes": 3.8
     },
     {
-        "id": 44,
+        "id": 43,
         "nome": "Mass Effect Legendary Edition",
-        "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202005/2915/TeL2gT2gC7bC1hF5lmmTbpT8.png",
+        "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202101/2517/xK2b8gY5A5oyYlc1pnUUVEm5.png?w=440&thumb=false",
         "valor": "R$ 124,95",
         "sinopse": "A trilogia clássica de Mass Effect remasterizada.",
         "avaliacoes": 4.7
     },
     {
-        "id": 45,
+        "id": 44,
         "nome": "Tomb Raider",
-        "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202005/2915/SeL2gT2gC7bC1hF5lmmTbpT8.png",
+        "imagem": "https://image.api.playstation.com/cdn/UP0082/CUSA00107_00/jT7kkwSWEinafnaYWMZoReRr4LlmYmym.png?w=440&thumb=false",
         "valor": "R$ 49,95",
         "sinopse": "Aventura e ação com Lara Croft.",
         "avaliacoes": 4.4
     },
     {
-        "id": 46,
+        "id": 45,
         "nome": "Shadow of the Tomb Raider",
-        "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202005/2915/ReL2gT2gC7bC1hF5lmmTbpT8.png",
+        "imagem": "https://image.api.playstation.com/cdn/UP0082/CUSA10938_00/yZNaslSOiVSXDwB5anYjFfU3x1AHBbPz.png?w=440&thumb=false",
         "valor": "R$ 99,95",
         "sinopse": "A última aventura de Lara Croft.",
         "avaliacoes": 4.5
     },
     {
-        "id": 47,
-        "nome": "Hitman 3",
-        "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202005/2915/QeL2gT2gC7bC1hF5lmmTbpT8.png",
+        "id": 46,
+        "nome": "Hitman World of Assassination",
+        "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202306/2110/ac07d058f6beb641716cdc8a1ead438e145ea127137ff8d1.png?w=440&thumb=false",
         "valor": "R$ 124,95",
         "sinopse": "O ápice da série de assassinatos em mundo aberto.",
         "avaliacoes": 4.6
     },
     {
-        "id": 48,
+        "id": 47,
         "nome": "Assassin's Creed Odyssey",
-        "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202005/2915/PeL2gT2gC7bC1hF5lmmTbpT8.png",
+        "imagem": "https://image.api.playstation.com/cdn/UP0001/CUSA09311_00/2XEenNH5pD4Ro375xwOG8tBwC9xMfEAE.png?w=180&thumb=false",
         "valor": "R$ 99,95",
         "sinopse": "Explore a Grécia Antiga neste RPG de ação.",
         "avaliacoes": 4.5
     },
     {
-        "id": 49,
+        "id": 48,
         "nome": "Assassin's Creed Origins",
-        "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202005/2915/OeL2gT2gC7bC1hF5lmmTbpT8.png",
+        "imagem": "https://image.api.playstation.com/cdn/UP0001/CUSA05855_00/yYiGRi9oya2bnKV9QnZ65ghdgBTVWQfI.png?w=180&thumb=false",
         "valor": "R$ 74,95",
         "sinopse": "A origem da irmandade dos assassinos no Egito.",
         "avaliacoes": 4.4
     },
     {
-        "id": 50,
-        "nome": "Hades",
-        "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202108/0522/5gP8g5hJq5q5q5q5q5q5q5q5.png",
+        "id": 49,
+        "nome": "Assassin's Creed Shadows",
+        "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202412/2018/6d3fddf363563ef352c729c8f5077056ab342fd0a9daae9b.png?w=180&thumb=false",
         "valor": "R$ 62,45",
         "sinopse": "Um rogue-like mitológico com ação intensa.",
         "avaliacoes": 4.8
     },
     {
-        "id": 51,
+        "id": 50,
         "nome": "Elden Ring",
-        "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202105/1212/5aL2gT2gC7bC1hF5lmmTbpT8.png",
+        "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202110/2000/phvVT0qZfcRms5qDAk0SI3CM.png?w=440&thumb=false",
         "valor": "R$ 149,95",
         "sinopse": "Um RPG de ação em um mundo vasto e sombrio.",
         "avaliacoes": 4.9
     },
     {
-        "id": 52,
+        "id": 51,
         "nome": "Dark Souls III",
-        "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202105/1111/4aL2gT2gC7bC1hF5lmmTbpT8.png",
+        "imagem": "https://image.api.playstation.com/cdn/UP0700/CUSA03388_00/v8JlD8KcQUtTqaLBmpFnj1ESRR5zMkLk.png?w=440&thumb=false",
         "valor": "R$ 99,95",
         "sinopse": "Um RPG de ação desafiador e sombrio.",
         "avaliacoes": 4.7
     },
     {
-        "id": 53,
+        "id": 52,
         "nome": "Bloodborne",
-        "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202105/1010/3aL2gT2gC7bC1hF5lmmTbpT8.png",
+        "imagem": "https://image.api.playstation.com/vulcan/img/rnd/202011/0713/WSZqsrnejjt85wYmUqeBQvMQ.png?w=440&thumb=false",
         "valor": "R$ 99,95",
         "sinopse": "Um RPG de ação gótico e implacável.",
         "avaliacoes": 4.8
     },
     {
-        "id": 54,
+        "id": 53,
         "nome": "Diablo IV",
-        "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202306/0605/2aL2gT2gC7bC1hF5lmmTbpT8.png",
+        "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202211/3017/Oo1B84A7BLCT157YFSxjtwG0.png?w=440&thumb=false",
         "valor": "R$ 174,95",
         "sinopse": "Um RPG de ação sombrio com combate visceral.",
         "avaliacoes": 4.6
     },
     {
-        "id": 55,
+        "id": 54,
         "nome": "Baldur's Gate 3",
-        "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202308/1515/1aL2gT2gC7bC1hF5lmmTbpT8.png",
+        "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202302/2321/ba706e54d68d10a0eb6ab7c36cdad9178c58b7fb7bb03d28.png?w=440&thumb=false",
         "valor": "R$ 149,95",
         "sinopse": "Um RPG épico baseado em Dungeons & Dragons.",
         "avaliacoes": 4.9
     },
     {
-        "id": 56,
+        "id": 55,
         "nome": "Divinity: Original Sin 2",
-        "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202308/1414/ZaL2gT2gC7bC1hF5lmmTbpT8.png",
+        "imagem": "https://image.api.playstation.com/cdn/UP3526/CUSA12611_00/A2Mt96jRTqaw5EtIwCHkUZXGpvqIZmSF.png?w=440&thumb=false",
         "valor": "R$ 99,95",
         "sinopse": "Um RPG tático com narrativa profunda.",
         "avaliacoes": 4.8
     },
     {
-        "id": 57,
+        "id": 56,
         "nome": "Horizon Zero Dawn",
-        "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202005/2915/YaL2gT2gC7bC1hF5lmmTbpT8.png",
+        "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202409/2716/16b33fa9a5c7285ba86a035b4a1c5f8eb430b407eae35ffd.png?w=440&thumb=false",
         "valor": "R$ 99,95",
         "sinopse": "Aventura em um mundo com máquinas gigantes.",
         "avaliacoes": 4.7
     },
     {
-        "id": 58,
+        "id": 57,
         "nome": "Uncharted 4: A Thief's End",
-        "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202005/2915/XaL2gT2gC7bC1hF5lmmTbpT8.png",
+        "imagem": "https://image.api.playstation.com/vulcan/img/rnd/202011/1018/SGqMZHd7WWmN4XIcLfYMxJsc.png?w=440&thumb=false",
         "valor": "R$ 99,95",
         "sinopse": "A última aventura de Nathan Drake.",
         "avaliacoes": 4.8
     },
     {
-        "id": 59,
+        "id": 58,
         "nome": "Marvel's Spider-Man",
-        "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202005/2915/WaL2gT2gC7bC1hF5lmmTbpT8.png",
+        "imagem": "https://image.api.playstation.com/vulcan/img/rnd/202011/0714/vuF88yWPSnDfmFJVTyNJpVwW.png?w=440&thumb=false",
         "valor": "R$ 124,95",
         "sinopse": "Ação e aventura como o Homem-Aranha.",
         "avaliacoes": 4.7
     },
     {
-        "id": 60,
+        "id": 59,
         "nome": "Ratchet & Clank: Rift Apart",
-        "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202105/2915/VaL2gT2gC7bC1hF5lmmTbpT8.png",
+        "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202101/2921/fWiBmwK5WnQa5XG3K4aWeMpt.png?w=440&thumb=false",
         "valor": "R$ 174,95",
         "sinopse": "Uma aventura intergaláctica com portais.",
         "avaliacoes": 4.6
     },
     {
-        "id": 61,
+        "id": 60,
         "nome": "Returnal",
-        "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202105/2915/UaL2gT2gC7bC1hF5lmmTbpT8.png",
+        "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202011/1621/fYZQHZ42eXXUt7c6D5YjLrq5.png?w=440&thumb=false",
         "valor": "R$ 174,95",
         "sinopse": "Um rogue-like de ficção científica com ação intensa.",
         "avaliacoes": 4.5
     },
     {
-        "id": 62,
+        "id": 61,
         "nome": "Sackboy: A Big Adventure",
-        "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202005/2915/TaL2gT2gC7bC1hF5lmmTbpT8.png",
+        "imagem": "https://image.api.playstation.com/vulcan/img/rnd/202010/1614/QeorUUNJVInkK3jmwDkHgK9t.png?w=440&thumb=false",
         "valor": "R$ 149,95",
         "sinopse": "Um jogo de plataforma 3D divertido e colorido.",
         "avaliacoes": 4.4
     },
     {
-        "id": 63,
+        "id": 62,
         "nome": "Kena: Bridge of Spirits",
-        "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202105/2915/SaL2gT2gC7bC1hF5lmmTbpT8.png",
+        "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202102/2307/kQzDCY5RCrSXCeeFjPGUzkGI.png?w=440&thumb=false",
         "valor": "R$ 99,95",
         "sinopse": "Uma aventura mágica com visuais encantadores.",
         "avaliacoes": 4.6
     },
     {
-        "id": 64,
+        "id": 63,
         "nome": "Astro Bot",
-        "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202405/2915/RaL2gT2gC7bC1hF5lmmTbpT8.png",
+        "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202406/0500/8f15268257b878597757fcc5f2c9545840867bc71fc863b1.png?w=440&thumb=false",
         "valor": "R$ 149,95",
         "sinopse": "Uma aventura 3D de plataforma com o robô Astro.",
         "avaliacoes": 4.8
     },
     {
-        "id": 65,
+        "id": 64,
         "nome": "God of War Ragnarök",
-        "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202210/0712/QaL2gT2gC7bC1hF5lmmTbpT8.png",
+        "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202503/2016/b69c06fb108299866057126b0d3a0530bdf96a39d2ce1cb9.png?w=440&thumb=false",
         "valor": "R$ 174,95",
         "sinopse": "A continuação épica da jornada de Kratos e Atreus.",
         "avaliacoes": 4.9
     },
     {
-        "id": 66,
+        "id": 65,
         "nome": "The Last Guardian",
-        "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202005/2915/PaL2gT2gC7bC1hF5lmmTbpT8.png",
+        "imagem": "https://image.api.playstation.com/vulcan/img/rnd/202010/2318/3jnbbEumNaIlpdlyrq7pQUXe.png?w=440&thumb=false",
         "valor": "R$ 99,95",
         "sinopse": "Uma história emocional sobre amizade e mistério.",
         "avaliacoes": 4.5
     },
     {
-        "id": 67,
+        "id": 66,
         "nome": "Shadow of the Colossus",
-        "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202005/2915/OaL2gT2gC7bC1hF5lmmTbpT8.png",
+        "imagem": "https://image.api.playstation.com/vulcan/img/rnd/202010/2319/XtqYrG2LWer39eExYBsh9J5x.png?w=440&thumb=false",
         "valor": "R$ 99,95",
         "sinopse": "Um remake de um clássico com batalhas épicas.",
         "avaliacoes": 4.7
     },
     {
-        "id": 68,
+        "id": 67,
         "nome": "Until Dawn",
-        "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202005/2915/NaL2gT2gC7bC1hF5lmmTbpT8.png",
+        "imagem": "https://image.api.playstation.com/vulcan/img/rnd/202010/2318/2cJRHg2UOwbvp10QxGrbX62S.png?w=440&thumb=false",
         "valor": "R$ 99,95",
         "sinopse": "Um jogo de terror interativo com escolhas.",
         "avaliacoes": 4.4
     },
     {
-        "id": 69,
+        "id": 68,
         "nome": "Detroit: Become Human",
-        "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202005/2915/MaL2gT2gC7bC1hF5lmmTbpT8.png",
+        "imagem": "https://image.api.playstation.com/vulcan/img/rnd/202010/2119/wl4DB5QGzlEHAXy1KLUVgOAu.png?w=440&thumb=false",
         "valor": "R$ 99,95",
         "sinopse": "Um drama interativo sobre androides e humanidade.",
         "avaliacoes": 4.6
     },
     {
-        "id": 70,
+        "id": 69,
         "nome": "Heavy Rain",
-        "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202005/2915/LaL2gT2gC7bC1hF5lmmTbpT8.png",
+        "imagem": "https://image.api.playstation.com/vulcan/img/rnd/202011/0518/rfaNTagTT8uQV0YfxNNLbzr0.png?w=440&thumb=false",
         "valor": "R$ 49,95",
         "sinopse": "Um thriller interativo sobre um assassino em série.",
         "avaliacoes": 4.3
     },
     {
-        "id": 71,
+        "id": 70,
         "nome": "Beyond: Two Souls",
-        "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202005/2915/KaL2gT2gC7bC1hF5lmmTbpT8.png",
+        "imagem": "https://image.api.playstation.com/vulcan/img/rnd/202011/0522/0qBPvJ5xqVxay9Ia0LviK6wG.png?w=440&thumb=false",
         "valor": "R$ 49,95",
         "sinopse": "Uma história emocional com elementos sobrenaturais.",
         "avaliacoes": 4.2
     },
     {
-        "id": 72,
+        "id": 71,
         "nome": "Gran Turismo 7",
-        "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202111/2915/JaL2gT2gC7bC1hF5lmmTbpT8.png",
+        "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202109/1321/yZ7dpmjtHr1olhutHT57IFRh.png?w=440&thumb=false",
         "valor": "R$ 174,95",
         "sinopse": "O simulador de corrida definitivo.",
         "avaliacoes": 4.6
     },
     {
-        "id": 73,
-        "nome": "FIFA 23",
-        "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202209/0712/IaL2gT2gC7bC1hF5lmmTbpT8.png",
+        "id": 72,
+        "nome": "WWE 2K25",
+        "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202501/1623/068123d291265a61f85713615aa2f255077fbf164186908e.png?w=440&thumb=false",
         "valor": "R$ 149,95",
         "sinopse": "O clássico jogo de futebol com novas mecânicas.",
         "avaliacoes": 4.4
     },
     {
-        "id": 74,
+        "id": 73,
         "nome": "NBA 2K25",
-        "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202409/0712/HaL2gT2gC7bC1hF5lmmTbpT8.png",
+        "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202406/0623/557a498ad681abced2e4fb18ccaacf8dbfe598a4e454b169.png?w=440&thumb=false",
         "valor": "R$ 174,95",
         "sinopse": "O simulador de basquete mais realista.",
         "avaliacoes": 4.5
     },
     {
-        "id": 75,
-        "nome": "Madden NFL 24",
-        "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202308/0712/GaL2gT2gC7bC1hF5lmmTbpT8.png",
+        "id": 74,
+        "nome": "Madden NFL 25",
+        "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202406/1011/5ef862d797e340bb0f2443e8feb9b0057867e8992b0963db.png?w=440&thumb=false",
         "valor": "R$ 149,95",
         "sinopse": "Futebol americano com gráficos impressionantes.",
         "avaliacoes": 4.3
     },
     {
-        "id": 76,
+        "id": 75,
         "nome": "Hogwarts Legacy",
-        "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202302/0712/FaL2gT2gC7bC1hF5lmmTbpT8.png",
+        "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202503/2716/ce2e7f5896365b4e35a192b1f7592b590fee98827644ddb4.png?w=440&thumb=false",
         "valor": "R$ 149,95",
         "sinopse": "Um RPG no universo de Harry Potter.",
         "avaliacoes": 4.7
     },
     {
-        "id": 77,
+        "id": 76,
         "nome": "Starfield",
-        "imagem": "https://store-images.s-microsoft.com/image/apps.12345.14102193805786390.6e8b4b8f-6a4b-4e7e-9b8a-5b1d9f5e5c7b.3c8c7d1b-5f7e-4f8a-9c2d-8e9f9f5e5c7b",
+        "imagem": "ASSETS/Capa_do_Jogo_Starfield.jpg",
         "valor": "R$ 174,95",
         "sinopse": "Um RPG de exploração espacial da Bethesda.",
         "avaliacoes": 4.4
     },
     {
-        "id": 78,
+        "id": 77,
         "nome": "Halo Infinite",
-        "imagem": "https://store-images.s-microsoft.com/image/apps.12346.14102193805786390.6e8b4b8f-6a4b-4e7e-9b8a-5b1d9f5e5c7b.3c8c7d1b-5f7e-4f8a-9c2d-8e9f9f5e5c7b",
+        "imagem": "ASSETS/Halo_Infinite_capa.png",
         "valor": "Gratuito",
         "sinopse": "O retorno do Master Chief em um FPS épico.",
         "avaliacoes": 4.5
     },
     {
-        "id": 79,
+        "id": 78,
         "nome": "Gears 5",
-        "imagem": "https://store-images.s-microsoft.com/image/apps.12347.14102193805786390.6e8b4b8f-6a4b-4e7e-9b8a-5b1d9f5e5c7b.3c8c7d1b-5f7e-4f8a-9c2d-8e9f9f5e5c7b",
+        "imagem": "ASSETS/Gears_5_capa.jpeg",
         "valor": "R$ 99,95",
         "sinopse": "Ação intensa na saga Gears of War.",
         "avaliacoes": 4.6
     },
     {
-        "id": 80,
+        "id": 79,
         "nome": "Sea of Thieves",
-        "imagem": "https://store-images.s-microsoft.com/image/apps.12348.14102193805786390.6e8b4b8f-6a4b-4e7e-9b8a-5b1d9f5e5c7b.3c8c7d1b-5f7e-4f8a-9c2d-8e9f9f5e5c7b",
+        "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202502/1814/287f0e07924e34bf117d3442f3c17e8cb96e00f674efea2e.png?w=440&thumb=false",
         "valor": "R$ 99,95",
         "sinopse": "Aventura pirata em um mundo aberto.",
         "avaliacoes": 4.5
     },
     {
-        "id": 81,
+        "id": 80,
         "nome": "Forza Motorsport",
-        "imagem": "https://store-images.s-microsoft.com/image/apps.12349.14102193805786390.6e8b4b8f-6a4b-4e7e-9b8a-5b1d9f5e5c7b.3c8c7d1b-5f7e-4f8a-9c2d-8e9f9f5e5c7b",
+        "imagem": "ASSETS/Capa_forza_motorsport.jpg",
         "valor": "R$ 174,95",
         "sinopse": "Um simulador de corrida realista.",
         "avaliacoes": 4.6
     },
     {
-        "id": 82,
+        "id": 81,
         "nome": "Psychonauts 2",
-        "imagem": "https://store-images.s-microsoft.com/image/apps.12350.14102193805786390.6e8b4b8f-6a4b-4e7e-9b8a-5b1d9f5e5c7b.3c8c7d1b-5f7e-4f8a-9c2d-8e9f9f5e5c7b",
+        "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202105/1417/ue23ohksCQgyKenxycEw1V41.png?w=440&thumb=false",
         "valor": "R$ 149,95",
         "sinopse": "Uma aventura psicodélica de plataforma.",
         "avaliacoes": 4.7
     },
     {
-        "id": 83,
+        "id": 82,
         "nome": "Ori and the Will of the Wisps",
-        "imagem": "https://store-images.s-microsoft.com/image/apps.12351.14102193805786390.6e8b4b8f-6a4b-4e7e-9b8a-5b1d9f5e5c7b.3c8c7d1b-5f7e-4f8a-9c2d-8e9f9f5e5c7b",
+        "imagem": "ASSETS/Ori_and_the_Will_of_the_Wisps_capa.jpg",
         "valor": "R$ 74,95",
         "sinopse": "Um metroidvania com visuais deslumbrantes.",
         "avaliacoes": 4.8
     },
     {
-        "id": 84,
+        "id": 83,
         "nome": "Hellblade: Senua's Sacrifice",
-        "imagem": "https://store-images.s-microsoft.com/image/apps.12352.14102193805786390.6e8b4b8f-6a4b-4e7e-9b8a-5b1d9f5e5c7b.3c8c7d1b-5f7e-4f8a-9c2d-8e9f9f5e5c7b",
+        "imagem": "https://image.api.playstation.com/cdn/UP3064/CUSA07511_00/6yEaL43dEig0W3JuUZZWRffPiqYmdz1A.png?w=440&thumb=false",
         "valor": "R$ 74,95",
         "sinopse": "Uma jornada sombria sobre loucura e mitologia.",
         "avaliacoes": 4.6
     },
     {
-        "id": 85,
+        "id": 84,
         "nome": "Fable Anniversary",
-        "imagem": "https://store-images.s-microsoft.com/image/apps.12353.14102193805786390.6e8b4b8f-6a4b-4e7e-9b8a-5b1d9f5e5c7b.3c8c7d1b-5f7e-4f8a-9c2d-8e9f9f5e5c7b",
+        "imagem": "ASSETS/Fable_capa.jpg",
         "valor": "R$ 74,95",
         "sinopse": "Um RPG clássico com humor e fantasia.",
         "avaliacoes": 4.4
     },
     {
-        "id": 86,
+        "id": 85,
         "nome": "Quantum Break",
-        "imagem": "https://store-images.s-microsoft.com/image/apps.12354.14102193805786390.6e8b4b8f-6a4b-4e7e-9b8a-5b1d9f5e5c7b.3c8c7d1b-5f7e-4f8a-9c2d-8e9f9f5e5c7b",
+        "imagem": "ASSETS/Quantum_Break_capa.jpg",
         "valor": "R$ 99,95",
         "sinopse": "Ação e manipulação do tempo em uma narrativa épica.",
         "avaliacoes": 4.3
     },
     {
-        "id": 87,
+        "id": 86,
         "nome": "Sunset Overdrive",
-        "imagem": "https://store-images.s-microsoft.com/image/apps.12355.14102193805786390.6e8b4b8f-6a4b-4e7e-9b8a-5b1d9f5e5c7b.3c8c7d1b-5f7e-4f8a-9c2d-8e9f9f5e5c7b",
+        "imagem": "ASSETS/Sunset_Overdrive_capa.jpg",
         "valor": "R$ 49,95",
         "sinopse": "Ação e caos em um mundo pós-apocalíptico colorido.",
         "avaliacoes": 4.5
     },
     {
-        "id": 88,
+        "id": 87,
         "nome": "Grounded",
-        "imagem": "https://store-images.s-microsoft.com/image/apps.12356.14102193805786390.6e8b4b8f-6a4b-4e7e-9b8a-5b1d9f5e5c7b.3c8c7d1b-5f7e-4f8a-9c2d-8e9f9f5e5c7b",
+        "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202404/1120/64a12b89992b8e34ecace3e5c7d1d39b954c2ab1d73de70a.png?w=440&thumb=false",
         "valor": "R$ 99,95",
         "sinopse": "Sobreviva como um humano minúsculo em um quintal.",
         "avaliacoes": 4.6
     },
     {
-        "id": 89,
+        "id": 88,
         "nome": "Hi-Fi Rush",
-        "imagem": "https://store-images.s-microsoft.com/image/apps.12357.14102193805786390.6e8b4b8f-6a4b-4e7e-9b8a-5b1d9f5e5c7b.3c8c7d1b-5f7e-4f8a-9c2d-8e9f9f5e5c7b",
+        "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202402/0615/6c0f8d23c70f7a4c925958886f53181ba43ca5145d471209.png?w=440&thumb=false",
         "valor": "R$ 74,95",
         "sinopse": "Um jogo de ação rítmico com trilha sonora vibrante.",
         "avaliacoes": 4.8
     },
     {
-        "id": 90,
+        "id": 89,
         "nome": "Pentiment",
-        "imagem": "https://store-images.s-microsoft.com/image/apps.12358.14102193805786390.6e8b4b8f-6a4b-4e7e-9b8a-5b1d9f5e5c7b.3c8c7d1b-5f7e-4f8a-9c2d-8e9f9f5e5c7b",
+        "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202402/0816/ea14a3ec071052b0c958075d43dcc3183eef3846f4b2a31a.png?w=440&thumb=false",
         "valor": "R$ 49,95",
         "sinopse": "Uma aventura narrativa na Europa medieval.",
         "avaliacoes": 4.7
     },
     {
-        "id": 91,
+        "id": 90,
         "nome": "Age of Empires IV",
-        "imagem": "https://store-images.s-microsoft.com/image/apps.12359.14102193805786390.6e8b4b8f-6a4b-4e7e-9b8a-5b1d9f5e5c7b.3c8c7d1b-5f7e-4f8a-9c2d-8e9f9f5e5c7b",
+        "imagem": "ASSETS/Capa_do_jogo_Age_of_Empires_IV.jpg",
         "valor": "R$ 99,95",
         "sinopse": "Estratégia em tempo real com civilizações históricas.",
         "avaliacoes": 4.5
     },
     {
-        "id": 92,
+        "id": 91,
         "nome": "Microsoft Flight Simulator",
-        "imagem": "https://store-images.s-microsoft.com/image/apps.12360.14102193805786390.6e8b4b8f-6a4b-4e7e-9b8a-5b1d9f5e5c7b.3c8c7d1b-5f7e-4f8a-9c2d-8e9f9f5e5c7b",
+        "imagem": "ASSETS/MFS_Capa.jpg",
         "valor": "R$ 149,95",
         "sinopse": "Um simulador de voo realista e detalhado.",
         "avaliacoes": 4.7
     },
     {
-        "id": 93,
+        "id": 92,
         "nome": "Fortnite",
-        "imagem": "https://cdn2.unrealengine.com/fortnite-chapter-5-season-4-battle-pass-1920x1080-1920x1080-2e3f0c3e3b3e.jpg",
+        "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202504/1418/dcbe7d8dd0b4b47aac13eea9f1abb3bc9edbc7ac82d87836.png?w=440&thumb=false",
         "valor": "Gratuito",
         "sinopse": "Um battle royale com construção e eventos únicos.",
         "avaliacoes": 4.6
     },
     {
-        "id": 94,
+        "id": 93,
         "nome": "Rocket League",
-        "imagem": "https://cdn2.unrealengine.com/rocket-league-season-12-1920x1080-1920x1080-3f0c2e3d3b3e.jpg",
+        "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202502/1323/77f2a1dd0614d6792a61835491cb3cbe1aec7afb70d8b494.png?w=440&thumb=false",
         "valor": "Gratuito",
         "sinopse": "Futebol com carros em alta velocidade.",
         "avaliacoes": 4.5
     },
     {
-        "id": 95,
+        "id": 94,
         "nome": "Tony Hawk's Pro Skater 1 + 2",
-        "imagem": "https://cdn2.unrealengine.com/tony-hawk-pro-skater-1-2-1920x1080-1920x1080-4g1h2j3k4l5m.jpg",
+        "imagem": "https://image.api.playstation.com/vulcan/img/rnd/202009/0219/witS8C6Rswg5cINrjBdGdZXA.png?w=440&thumb=false",
         "valor": "R$ 99,95",
         "sinopse": "Um remake dos clássicos jogos de skate.",
         "avaliacoes": 4.7
     },
     {
-        "id": 96,
+        "id": 95,
         "nome": "Among Us",
-        "imagem": "https://cdn2.unrealengine.com/among-us-1920x1080-1920x1080-5h2j3k4l5m6n.jpg",
+        "imagem": "https://image.api.playstation.com/vulcan/img/rnd/202107/0115/D5IIJwm65MLMPENwWzzO7rjd.png?w=440&thumb=false",
         "valor": "R$ 12,45",
         "sinopse": "Um jogo de dedução social e traição.",
         "avaliacoes": 4.5
     },
     {
-        "id": 97,
+        "id": 96,
         "nome": "Fall Guys",
-        "imagem": "https://cdn2.unrealengine.com/fall-guys-season-4-1920x1080-1920x1080-6i3j4k5l6m7n.jpg",
+        "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202408/0721/00dd43384a1ed60cd7453428dd5c6897b35b013d4b98965d.png?w=440&thumb=false",
         "valor": "Gratuito",
         "sinopse": "Um battle royale caótico com obstáculos.",
         "avaliacoes": 4.4
     },
     {
-        "id": 98,
+        "id": 97,
         "nome": "Genshin Impact",
-        "imagem": "https://cdn2.unrealengine.com/genshin-impact-5-0-1920x1080-1920x1080-7j4k5l6m7n8o.jpg",
+        "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202408/2010/6e7d87fef87405e9925e810a1620df04c3b98c2086711336.png?w=440&thumb=false",
         "valor": "Gratuito",
         "sinopse": "Um RPG de mundo aberto com elementos de gacha.",
         "avaliacoes": 4.6
     },
     {
-        "id": 99,
+        "id": 98,
         "nome": "Valorant",
-        "imagem": "https://cdn2.unrealengine.com/valorant-episode-8-1920x1080-1920x1080-8k5l6m7n8o9p.jpg",
+        "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202504/2419/171e2bc268cf9a2fe8627c81a6b11e8c7290cd6115e57c4a.png?w=440&thumb=false",
         "valor": "Gratuito",
         "sinopse": "Um FPS tático com agentes únicos.",
         "avaliacoes": 4.7
     },
     {
+        "id": 99,
+        "nome": "Minecraft",
+        "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202407/0401/670c294ded3baf4fa11068db2ec6758c63f7daeb266a35a1.png?w=440&thumb=false",
+        "valor": "R$ 20,00",
+        "sinopse": "Experimente aventuras inesquecíveis enquanto enfrenta inimigos misteriosos, atravessa paisagens incríveis e viaja para dimensões perigosas.",
+        "avaliacoes": 4.3
+    },
+    {
         "id": 100,
-        "nome": "League of Legends",
-        "imagem": "https://cdn2.unrealengine.com/league-of-legends-14-18-1920x1080-1920x1080-9l6m7n8o9p0q.jpg",
-        "valor": "Gratuito",
-        "sinopse": "Um MOBA competitivo com campeões variados.",
-        "avaliacoes": 4.8
-    },
-    {
-        "id": 101,
-        "nome": "Dota 2",
-        "imagem": "https://cdn2.steamstatic.com/steam/apps/570/capsule_sm_120.jpg",
-        "valor": "Gratuito",
-        "sinopse": "Um MOBA estratégico e desafiador.",
-        "avaliacoes": 4.7
-    },
-    {
-        "id": 102,
-        "nome": "Counter-Strike 2",
-        "imagem": "https://cdn2.steamstatic.com/steam/apps/730/capsule_sm_120.jpg",
-        "valor": "Gratuito",
-        "sinopse": "Um FPS competitivo clássico.",
-        "avaliacoes": 4.8
-    },
-    {
-        "id": 103,
-        "nome": "Team Fortress 2",
-        "imagem": "https://cdn2.steamstatic.com/steam/apps/440/capsule_sm_120.jpg",
-        "valor": "Gratuito",
-        "sinopse": "Um FPS com classes e humor único.",
-        "avaliacoes": 4.6
-    },
-    {
-        "id": 104,
-        "nome": "Portal 2",
-        "imagem": "https://cdn2.steamstatic.com/steam/apps/620/capsule_sm_120.jpg",
-        "valor": "R$ 24,95",
-        "sinopse": "Um quebra-cabeça com portais e narrativa brilhante.",
-        "avaliacoes": 4.9
-    },
-    {
-        "id": 105,
-        "nome": "Half-Life: Alyx",
-        "imagem": "https://cdn2.steamstatic.com/steam/apps/546560/capsule_sm_120.jpg",
-        "valor": "R$ 99,95",
-        "sinopse": "Uma experiência de realidade virtual no universo Half-Life.",
-        "avaliacoes": 4.8
-    },
-    {
-        "id": 106,
-        "nome": "Left 4 Dead 2",
-        "imagem": "https://cdn2.steamstatic.com/steam/apps/550/capsule_sm_120.jpg",
-        "valor": "R$ 24,95",
-        "sinopse": "Um FPS cooperativo contra zumbis.",
-        "avaliacoes": 4.7
-    },
-    {
-        "id": 107,
-        "nome": "Stardew Valley",
-        "imagem": "https://cdn2.steamstatic.com/steam/apps/413150/capsule_sm_120.jpg",
-        "valor": "R$ 24,95",
-        "sinopse": "Um simulador de fazenda relaxante.",
-        "avaliacoes": 4.9
-    },
-    {
-        "id": 108,
-        "nome": "Terraria",
-        "imagem": "https://cdn2.steamstatic.com/steam/apps/105600/capsule_sm_120.jpg",
-        "valor": "R$ 24,95",
-        "sinopse": "Um sandbox 2D com exploração e construção.",
-        "avaliacoes": 4.8
-    },
-    {
-        "id": 109,
-        "nome": "Hollow Knight",
-        "imagem": "https://cdn2.steamstatic.com/steam/apps/367520/capsule_sm_120.jpg",
-        "valor": "R$ 37,45",
-        "sinopse": "Um metroidvania com arte e desafios únicos.",
-        "avaliacoes": 4.9
-    },
-    {
-        "id": 110,
-        "nome": "Celeste",
-        "imagem": "https://cdn2.steamstatic.com/steam/apps/504230/capsule_sm_120.jpg",
-        "valor": "R$ 37,45",
-        "sinopse": "Um plataforma com narrativa emocional.",
-        "avaliacoes": 4.8
-    },
-    {
-        "id": 111,
-        "nome": "Slay the Spire",
-        "imagem": "https://cdn2.steamstatic.com/steam/apps/646570/capsule_sm_120.jpg",
-        "valor": "R$ 49,95",
-        "sinopse": "Um jogo de cartas rogue-like viciante.",
-        "avaliacoes": 4.7
-    },
-    {
-        "id": 112,
-        "nome": "Dead Cells",
-        "imagem": "https://cdn2.steamstatic.com/steam/apps/588650/capsule_sm_120.jpg",
-        "valor": "R$ 49,95",
-        "sinopse": "Um roguevania com combate fluido.",
-        "avaliacoes": 4.8
-    },
-    {
-        "id": 113,
-        "nome": "Risk of Rain 2",
-        "imagem": "https://cdn2.steamstatic.com/steam/apps/632360/capsule_sm_120.jpg",
-        "valor": "R$ 49,95",
-        "sinopse": "Um rogue-like de ação com multiplayer.",
-        "avaliacoes": 4.7
-    },
-    {
-        "id": 114,
-        "nome": "Factorio",
-        "imagem": "https://cdn2.steamstatic.com/steam/apps/427520/capsule_sm_120.jpg",
-        "valor": "R$ 74,95",
-        "sinopse": "Um jogo de automação e gerenciamento de recursos.",
-        "avaliacoes": 4.9
-    },
-    {
-        "id": 115,
-        "nome": "RimWorld",
-        "imagem": "https://cdn2.steamstatic.com/steam/apps/294100/capsule_sm_120.jpg",
-        "valor": "R$ 74,95",
-        "sinopse": "Um simulador de colônia com histórias emergentes.",
-        "avaliacoes": 4.8
-    },
-    {
-        "id": 116,
-        "nome": "Don't Starve Together",
-        "imagem": "https://cdn2.steamstatic.com/steam/apps/322330/capsule_sm_120.jpg",
-        "valor": "R$ 37,45",
-        "sinopse": "Um jogo de sobrevivência com multiplayer.",
-        "avaliacoes": 4.7
-    },
-    {
-        "id": 117,
-        "nome": "Oxygen Not Included",
-        "imagem": "https://cdn2.steamstatic.com/steam/apps/457140/capsule_sm_120.jpg",
-        "valor": "R$ 49,95",
-        "sinopse": "Um simulador de colônia com desafios científicos.",
-        "avaliacoes": 4.8
-    },
-    {
-        "id": 118,
-        "nome": "Civilization VI",
-        "imagem": "https://cdn2.steamstatic.com/steam/apps/289070/capsule_sm_120.jpg",
-        "valor": "R$ 149,95",
-        "sinopse": "Um jogo de estratégia por turnos com civilizações.",
-        "avaliacoes": 4.6
-    },
-    {
-        "id": 119,
-        "nome": "XCOM 2",
-        "imagem": "https://cdn2.steamstatic.com/steam/apps/268500/capsule_sm_120.jpg",
-        "valor": "R$ 149,95",
-        "sinopse": "Estratégia tática contra uma invasão alienígena.",
-        "avaliacoes": 4.7
-    },
-    {
-        "id": 120,
-        "nome": "Total War: Warhammer III",
-        "imagem": "https://cdn2.steamstatic.com/steam/apps/1142710/capsule_sm_120.jpg",
-        "valor": "R$ 149,95",
-        "sinopse": "Estratégia com batalhas épicas no universo Warhammer.",
-        "avaliacoes": 4.5
-    },
-    {
-        "id": 121,
-        "nome": "Crusader Kings III",
-        "imagem": "https://cdn2.steamstatic.com/steam/apps/1158310/capsule_sm_120.jpg",
-        "valor": "R$ 124,95",
-        "sinopse": "Um simulador de dinastias medievais.",
-        "avaliacoes": 4.8
-    },
-    {
-        "id": 122,
-        "nome": "Europa Universalis IV",
-        "imagem": "https://cdn2.steamstatic.com/steam/apps/236850/capsule_sm_120.jpg",
-        "valor": "R$ 99,95",
-        "sinopse": "Estratégia histórica em escala global.",
-        "avaliacoes": 4.7
-    },
-    {
-        "id": 123,
-        "nome": "Stellaris",
-        "imagem": "https://cdn2.steamstatic.com/steam/apps/281990/capsule_sm_120.jpg",
-        "valor": "R$ 99,95",
-        "sinopse": "Um jogo de estratégia espacial com exploração.",
-        "avaliacoes": 4.6
-    },
-    {
-        "id": 124,
-        "nome": "Cities: Skylines",
-        "imagem": "https://cdn2.steamstatic.com/steam/apps/255710/capsule_sm_120.jpg",
-        "valor": "R$ 74,95",
-        "sinopse": "Um simulador de construção de cidades.",
-        "avaliacoes": 4.7
-    },
-    {
-        "id": 125,
-        "nome": "SimCity 4",
-        "imagem": "https://cdn2.steamstatic.com/steam/apps/24780/capsule_sm_120.jpg",
-        "valor": "R$ 49,95",
-        "sinopse": "Um clássico simulador de construção de cidades.",
-        "avaliacoes": 4.5
-    },
-    {
-        "id": 126,
-        "nome": "The Sims 4",
-        "imagem": "https://cdn2.steamstatic.com/steam/apps/1222670/capsule_sm_120.jpg",
-        "valor": "Gratuito",
-        "sinopse": "Um simulador de vida com infinitas possibilidades.",
-        "avaliacoes": 4.6
-    },
-    {
-        "id": 127,
-        "nome": "Planet Zoo",
-        "imagem": "https://cdn2.steamstatic.com/steam/apps/703080/capsule_sm_120.jpg",
-        "valor": "R$ 112,45",
-        "sinopse": "Construa e gerencie seu próprio zoológico.",
-        "avaliacoes": 4.7
-    },
-    {
-        "id": 128,
-        "nome": "Jurassic World Evolution 2",
-        "imagem": "https://cdn2.steamstatic.com/steam/apps/1244460/capsule_sm_120.jpg",
-        "valor": "R$ 149,95",
-        "sinopse": "Construa um parque de dinossauros com desafios.",
-        "avaliacoes": 4.5
-    },
-    {
-        "id": 129,
-        "nome": "Frostpunk",
-        "imagem": "https://cdn2.steamstatic.com/steam/apps/323190/capsule_sm_120.jpg",
-        "valor": "R$ 74,95",
-        "sinopse": "Um simulador de sobrevivência em um mundo gelado.",
-        "avaliacoes": 4.7
-    },
-    {
-        "id": 130,
-        "nome": "This War of Mine",
-        "imagem": "https://cdn2.steamstatic.com/steam/apps/282070/capsule_sm_120.jpg",
-        "valor": "R$ 49,95",
-        "sinopse": "Um jogo de sobrevivência em tempos de guerra.",
-        "avaliacoes": 4.8
-    },
-    {
-        "id": 131,
-        "nome": "Subnautica",
-        "imagem": "https://cdn2.steamstatic.com/steam/apps/264710/capsule_sm_120.jpg",
-        "valor": "R$ 74,95",
-        "sinopse": "Exploração subaquática em um planeta alienígena.",
-        "avaliacoes": 4.8
-    },
-    {
-        "id": 132,
-        "nome": "No Man's Sky",
-        "imagem": "https://cdn2.steamstatic.com/steam/apps/275850/capsule_sm_120.jpg",
-        "valor": "R$ 149,95",
-        "sinopse": "Exploração espacial com infinitos planetas.",
-        "avaliacoes": 4.6
-    },
-    {
-        "id": 133,
-        "nome": "Kerbal Space Program",
-        "imagem": "https://cdn2.steamstatic.com/steam/apps/220200/capsule_sm_120.jpg",
-        "valor": "R$ 99,95",
-        "sinopse": "Construa e lance foguetes em um simulador espacial.",
-        "avaliacoes": 4.7
-    },
-    {
-        "id": 134,
-        "nome": "Elite Dangerous",
-        "imagem": "https://cdn2.steamstatic.com/steam/apps/359320/capsule_sm_120.jpg",
-        "valor": "R$ 74,95",
-        "sinopse": "Um simulador espacial com exploração e combate.",
-        "avaliacoes": 4.5
-    },
-    {
-        "id": 135,
-        "nome": "Star Citizen",
-        "imagem": "https://robertsspaceindustries.com/rsi/static/images/logo-rsi.png",
-        "valor": "R$ 112,45",
-        "sinopse": "Um MMO espacial com simulação detalhada.",
-        "avaliacoes": 4.4
-    },
-    {
-        "id": 136,
-        "nome": "World of Warcraft",
-        "imagem": "https://cdn.blizzard.com/blizzard/wow/static/images/wow-logo.png",
-        "valor": "R$ 74,95",
-        "sinopse": "Um MMO clássico com um mundo de fantasia vasto.",
-        "avaliacoes": 4.7
-    },
-    {
-        "id": 137,
-        "nome": "Final Fantasy XIV",
-        "imagem": "https://cdn2.steamstatic.com/steam/apps/39210/capsule_sm_120.jpg",
-        "valor": "R$ 74,95",
-        "sinopse": "Um MMO com uma história rica e mundo vibrante.",
-        "avaliacoes": 4.8
-    },
-    {
-        "id": 138,
-        "nome": "Guild Wars 2",
-        "imagem": "https://cdn2.steamstatic.com/steam/apps/1284210/capsule_sm_120.jpg",
-        "valor": "Gratuito",
-        "sinopse": "Um MMO com combate dinâmico e exploração.",
-        "avaliacoes": 4.6
-    },
-    {
-        "id": 139,
-        "nome": "Black Desert Online",
-        "imagem": "https://cdn2.steamstatic.com/steam/apps/582660/capsule_sm_120.jpg",
-        "valor": "R$ 24,95",
-        "sinopse": "Um MMO com combate de ação e gráficos incríveis.",
-        "avaliacoes": 4.5
-    },
-    {
-        "id": 140,
-        "nome": "EVE Online",
-        "imagem": "https://cdn2.steamstatic.com/steam/apps/8500/capsule_sm_120.jpg",
-        "valor": "Gratuito",
-        "sinopse": "Um MMO espacial com economia dirigida por jogadores.",
-        "avaliacoes": 4.6
-    },
-    {
-        "id": 141,
-        "nome": "Monster Hunter Rise",
-        "imagem": "https://cdn2.steamstatic.com/steam/apps/1446780/capsule_sm_120.jpg",
-        "valor": "R$ 99,95",
-        "sinopse": "Caça monstros com novas mec Artificial Intelligence de mobilidade.",
-        "avaliacoes": 4.7
-    },
-    {
-        "id": 142,
-        "nome": "Yakuza: Like a Dragon",
-        "imagem": "https://cdn2.steamstatic.com/steam/apps/1235140/capsule_sm_120.jpg",
-        "valor": "R$ 149,95",
-        "sinopse": "Um RPG com combates por turnos no submundo japonês.",
-        "avaliacoes": 4.8
-    },
-    {
-        "id": 143,
-        "nome": "Persona 4 Golden",
-        "imagem": "https://cdn2.steamstatic.com/steam/apps/1113000/capsule_sm_120.jpg",
-        "valor": "R$ 99,95",
-        "sinopse": "Um RPG clássico com mistério e amizade.",
-        "avaliacoes": 4.9
-    },
-    {
-        "id": 144,
-        "nome": "Tales of Arise",
-        "imagem": "https://cdn2.steamstatic.com/steam/apps/740130/capsule_sm_120.jpg",
-        "valor": "R$ 149,95",
-        "sinopse": "Um RPG com uma história emocionante e combates dinâmicos.",
-        "avaliacoes": 4.7
-    },
-    {
-        "id": 145,
-        "nome": "Ni no Kuni II: Revenant Kingdom",
-        "imagem": "https://cdn2.steamstatic.com/steam/apps/589360/capsule_sm_120.jpg",
-        "valor": "R$ 149,95",
-        "sinopse": "Um RPG com visuais de anime e construção de reino.",
-        "avaliacoes": 4.6
-    },
-    {
-        "id": 146,
-        "nome": "Dragon Quest XI S",
-        "imagem": "https://cdn2.steamstatic.com/steam/apps/1295510/capsule_sm_120.jpg",
-        "valor": "R$ 149,95",
-        "sinopse": "Um RPG clássico com uma história encantadora.",
-        "avaliacoes": 4.8
-    },
-    {
-        "id": 147,
-        "nome": "Octopath Traveler",
-        "imagem": "https://cdn2.steamstatic.com/steam/apps/921570/capsule_sm_120.jpg",
-        "valor": "R$ 149,95",
-        "sinopse": "Um RPG com arte HD-2D e oito histórias únicas.",
-        "avaliacoes": 4.7
-    },
-    {
-        "id": 148,
-        "nome": "Bravely Default II",
-        "imagem": "https://cdn2.steamstatic.com/steam/apps/1447400/capsule_sm_120.jpg",
-        "valor": "R$ 149,95",
-        "sinopse": "Um RPG com combates por turnos e narrativa épica.",
-        "avaliacoes": 4.6
-    },
-    {
-        "id": 149,
-        "nome": "Fire Emblem: Three Houses",
-        "imagem": "https://www.nintendo.com//content/dam/noa/en_US/games/switch/f/fire-emblem-three-houses-switch/fire-emblem-three-houses-switch-boxart.png",
-        "valor": "R$ 149,95",
-        "sinopse": "Um RPG tático com escolhas e narrativa profunda.",
-        "avaliacoes": 4.8
-    },
-    {
-        "id": 150,
-        "nome": "Xenoblade Chronicles 3",
-        "imagem": "https://www.nintendo.com//content/dam/noa/en_US/games/switch/x/xenoblade-chronicles-3-switch/xenoblade-chronicles-3-switch-boxart.png",
-        "valor": "R$ 149,95",
-        "sinopse": "Um RPG de mundo aberto com uma história épica.",
-        "avaliacoes": 4.7
-    },
-    {
-        "id": 151,
-        "nome": "Bayonetta 3",
-        "imagem": "https://www.nintendo.com/content/dam/noa/en_US/games/switch/b/bayonetta-3-switch/bayonetta-3-switch-boxart.png",
-        "valor": "R$ 149,95",
-        "sinopse": "Ação intensa com a bruxa Bayonetta em novos cenários.",
-        "avaliacoes": 4.6
-    },
-    {
-        "id": 152,
-        "nome": "Super Smash Bros. Ultimate",
-        "imagem": "https://www.nintendo.com/content/dam/noa/en_US/games/switch/s/super-smash-bros-ultimate-switch/super-smash-bros-ultimate-switch-boxart.png",
-        "valor": "R$ 149,95",
-        "sinopse": "O maior crossover de luta com personagens icônicos.",
-        "avaliacoes": 4.9
-    },
-    {
-        "id": 153,
-        "nome": "The Legend of Zelda: Breath of the Wild",
-        "imagem": "https://www.nintendo.com/content/dam/noa/en_US/games/switch/t/the-legend-of-zelda-breath-of-the-wild-switch/the-legend-of-zelda-breath-of-the-wild-switch-boxart.png",
-        "valor": "R$ 149,95",
-        "sinopse": "Uma aventura épica em um mundo aberto de Hyrule.",
-        "avaliacoes": 4.9
-    },
-    {
-        "id": 154,
-        "nome": "The Legend of Zelda: Tears of the Kingdom",
-        "imagem": "https://www.nintendo.com/content/dam/noa/en_US/games/switch/t/the-legend-of-zelda-tears-of-the-kingdom-switch/the-legend-of-zelda-tears-of-the-kingdom-switch-boxart.png",
-        "valor": "R$ 174,95",
-        "sinopse": "A continuação de Breath of the Wild com novas mecânicas.",
-        "avaliacoes": 4.9
-    },
-    {
-        "id": 155,
-        "nome": "Animal Crossing: New Horizons",
-        "imagem": "https://www.nintendo.com/content/dam/noa/en_US/games/switch/a/animal-crossing-new-horizons-switch/animal-crossing-new-horizons-switch-boxart.png",
-        "valor": "R$ 149,95",
-        "sinopse": "Um simulador de vida em uma ilha paradisíaca.",
-        "avaliacoes": 4.8
-    },
-    {
-        "id": 156,
-        "nome": "Metroid Dread",
-        "imagem": "https://www.nintendo.com/content/dam/noa/en_US/games/switch/m/metroid-dread-switch/metroid-dread-switch-boxart.png",
-        "valor": "R$ 149,95",
-        "sinopse": "Uma aventura 2D com Samus Aran contra novos inimigos.",
-        "avaliacoes": 4.7
-    },
-    {
-        "id": 157,
-        "nome": "Mario Kart 8 Deluxe",
-        "imagem": "https://www.nintendo.com/content/dam/noa/en_US/games/switch/m/mario-kart-8-deluxe-switch/mario-kart-8-deluxe-switch-boxart.png",
-        "valor": "R$ 149,95",
-        "sinopse": "Corridas frenéticas com os personagens da Nintendo.",
-        "avaliacoes": 4.8
-    },
-    {
-        "id": 158,
-        "nome": "Super Mario Odyssey",
-        "imagem": "https://www.nintendo.com/content/dam/noa/en_US/games/switch/s/super-mario-odyssey-switch/super-mario-odyssey-switch-boxart.png",
-        "valor": "R$ 149,95",
-        "sinopse": "Uma aventura 3D com Mario em diversos mundos.",
-        "avaliacoes": 4.9
-    },
-    {
-        "id": 159,
-        "nome": "Pokémon Sword",
-        "imagem": "https://www.nintendo.com/content/dam/noa/en_US/games/switch/p/pokemon-sword-switch/pokemon-sword-switch-boxart.png",
-        "valor": "R$ 149,95",
-        "sinopse": "Capture Pokémon na região de Galar.",
-        "avaliacoes": 4.6
-    },
-    {
-        "id": 160,
-        "nome": "Pokémon Scarlet",
-        "imagem": "https://www.nintendo.com/content/dam/noa/en_US/games/switch/p/pokemon-scarlet-switch/pokemon-scarlet-switch-boxart.png",
-        "valor": "R$ 149,95",
-        "sinopse": "Explore um mundo aberto com novos Pokémon.",
-        "avaliacoes": 4.5
-    },
-    {
-        "id": 161,
-        "nome": "Luigi's Mansion 3",
-        "imagem": "https://www.nintendo.com/content/dam/noa/en_US/games/switch/l/luigis-mansion-3-switch/luigis-mansion-3-switch-boxart.png",
-        "valor": "R$ 149,95",
-        "sinopse": "Luigi enfrenta fantasmas em um hotel assombrado.",
-        "avaliacoes": 4.7
-    },
-    {
-        "id": 162,
-        "nome": "Splatoon 3",
-        "imagem": "https://www.nintendo.com/content/dam/noa/en_US/games/switch/s/splatoon-3-switch/splatoon-3-switch-boxart.png",
-        "valor": "R$ 149,95",
-        "sinopse": "Batalhas de tinta com os Inklings.",
-        "avaliacoes": 4.6
-    },
-    {
-        "id": 163,
-        "nome": "Pikmin 4",
-        "imagem": "https://www.nintendo.com/content/dam/noa/en_US/games/switch/p/pikmin-4-switch/pikmin-4-switch-boxart.png",
-        "valor": "R$ 149,95",
-        "sinopse": "Comande os Pikmin em uma nova aventura.",
-        "avaliacoes": 4.7
-    },
-    {
-        "id": 164,
-        "nome": "Mario Party Superstars",
-        "imagem": "https://www.nintendo.com/content/dam/noa/en_US/games/switch/m/mario-party-superstars-switch/mario-party-superstars-switch-boxart.png",
-        "valor": "R$ 149,95",
-        "sinopse": "Diversão multiplayer com tabuleiros clássicos.",
-        "avaliacoes": 4.6
-    },
-    {
-        "id": 165,
-        "nome": "Kirby and the Forgotten Land",
-        "imagem": "https://www.nintendo.com/content/dam/noa/en_US/games/switch/k/kirby-and-the-forgotten-land-switch/kirby-and-the-forgotten-land-switch-boxart.png",
-        "valor": "R$ 149,95",
-        "sinopse": "Uma aventura 3D com Kirby em um mundo pós-apocalíptico.",
-        "avaliacoes": 4.8
-    },
-    {
-        "id": 166,
-        "nome": "Super Mario 3D World + Bowser's Fury",
-        "imagem": "https://www.nintendo.com/content/dam/noa/en_US/games/switch/s/super-mario-3d-world-plus-bowsers-fury-switch/super-mario-3d-world-plus-bowsers-fury-switch-boxart.png",
-        "valor": "R$ 149,95",
-        "sinopse": "Uma aventura 3D com Mario e um novo modo com Bowser Jr.",
-        "avaliacoes": 4.8
-    },
-    {
-        "id": 167,
-        "nome": "Paper Mario: The Origami King",
-        "imagem": "https://www.nintendo.com/content/dam/noa/en_US/games/switch/p/paper-mario-the-origami-king-switch/paper-mario-the-origami-king-switch-boxart.png",
-        "valor": "R$ 149,95",
-        "sinopse": "Uma aventura de RPG com Mario em um mundo de papel.",
-        "avaliacoes": 4.6
-    },
-    {
-        "id": 168,
-        "nome": "Donkey Kong Country: Tropical Freeze",
-        "imagem": "https://www.nintendo.com/content/dam/noa/en_US/games/switch/d/donkey-kong-country-tropical-freeze-switch/donkey-kong-country-tropical-freeze-switch-boxart.png",
-        "valor": "R$ 149,95",
-        "sinopse": "Um plataforma clássico com Donkey Kong e amigos.",
-        "avaliacoes": 4.7
-    },
-    {
-        "id": 169,
-        "nome": "Hyrule Warriors: Age of Calamity",
-        "imagem": "https://www.nintendo.com/content/dam/noa/en_US/games/switch/h/hyrule-warriors-age-of-calamity-switch/hyrule-warriors-age-of-calamity-switch-boxart.png",
-        "valor": "R$ 149,95",
-        "sinopse": "Ação no universo de Zelda, antes de Breath of the Wild.",
-        "avaliacoes": 4.5
-    },
-    {
-        "id": 170,
-        "nome": "New Super Mario Bros. U Deluxe",
-        "imagem": "https://www.nintendo.com/content/dam/noa/en_US/games/switch/n/new-super-mario-bros-u-deluxe-switch/new-super-mario-bros-u-deluxe-switch-boxart.png",
-        "valor": "R$ 149,95",
-        "sinopse": "Um plataforma 2D com Mario e amigos.",
-        "avaliacoes": 4.6
-    },
-    {
-        "id": 171,
-        "nome": "Mario Golf: Super Rush",
-        "imagem": "https://www.nintendo.com/content/dam/noa/en_US/games/switch/m/mario-golf-super-rush-switch/mario-golf-super-rush-switch-boxart.png",
-        "valor": "R$ 149,95",
-        "sinopse": "Golfe divertido com os personagens de Mario.",
-        "avaliacoes": 4.4
-    },
-    {
-        "id": 172,
-        "nome": "Mario Tennis Aces",
-        "imagem": "https://www.nintendo.com/content/dam/noa/en_US/games/switch/m/mario-tennis-aces-switch/mario-tennis-aces-switch-boxart.png",
-        "valor": "R$ 149,95",
-        "sinopse": "Tênis competitivo com os personagens de Mario.",
-        "avaliacoes": 4.5
-    },
-    {
-        "id": 173,
-        "nome": "Super Mario Party",
-        "imagem": "https://www.nintendo.com/content/dam/noa/en_US/games/switch/s/super-mario-party-switch/super-mario-party-switch-boxart.png",
-        "valor": "R$ 149,95",
-        "sinopse": "Diversão multiplayer com minijogos e tabuleiros.",
-        "avaliacoes": 4.6
-    },
-    {
-        "id": 174,
-        "nome": "Pokémon Legends: Arceus",
-        "imagem": "https://www.nintendo.com/content/dam/noa/en_US/games/switch/p/pokemon-legends-arceus-switch/pokemon-legends-arceus-switch-boxart.png",
-        "valor": "R$ 149,95",
-        "sinopse": "Uma nova abordagem ao universo Pokémon em mundo aberto.",
-        "avaliacoes": 4.7
-    },
-    {
-        "id": 175,
-        "nome": "Pokémon Brilliant Diamond",
-        "imagem": "https://www.nintendo.com/content/dam/noa/en_US/games/switch/p/pokemon-brilliant-diamond-switch/pokemon-brilliant-diamond-switch-boxart.png",
-        "valor": "R$ 149,95",
-        "sinopse": "Remake do clássico Pokémon Diamond para o DS.",
-        "avaliacoes": 4.5
-    },
-    {
-        "id": 176,
-        "nome": "Fire Emblem Warriors: Three Hopes",
-        "imagem": "https://www.nintendo.com/content/dam/noa/en_US/games/switch/f/fire-emblem-warriors-three-hopes-switch/fire-emblem-warriors-three-hopes-switch-boxart.png",
-        "valor": "R$ 149,95",
-        "sinopse": "Ação e estratégia no universo de Fire Emblem.",
-        "avaliacoes": 4.6
-    },
-    {
-        "id": 177,
-        "nome": "Monster Hunter Stories 2: Wings of Ruin",
-        "imagem": "https://www.nintendo.com/content/dam/noa/en_US/games/switch/m/monster-hunter-stories-2-wings-of-ruin-switch/monster-hunter-stories-2-wings-of-ruin-switch-boxart.png",
-        "valor": "R$ 149,95",
-        "sinopse": "Um RPG com monstros e história envolvente.",
-        "avaliacoes": 4.6
-    },
-    {
-        "id": 178,
-        "nome": "Shin Megami Tensei V",
-        "imagem": "https://www.nintendo.com/content/dam/noa/en_US/games/switch/s/shin-megami-tensei-v-switch/shin-megami-tensei-v-switch-boxart.png",
-        "valor": "R$ 149,95",
-        "sinopse": "Um RPG sombrio em um mundo pós-apocalíptico.",
-        "avaliacoes": 4.7
-    },
-    {
-        "id": 179,
-        "nome": "Astral Chain",
-        "imagem": "https://www.nintendo.com/content/dam/noa/en_US/games/switch/a/astral-chain-switch/astral-chain-switch-boxart.png",
-        "valor": "R$ 149,95",
-        "sinopse": "Ação e investigação em um mundo futurista.",
-        "avaliacoes": 4.7
-    },
-    {
-        "id": 180,
-        "nome": "Ring Fit Adventure",
-        "imagem": "https://www.nintendo.com/content/dam/noa/en_US/games/switch/r/ring-fit-adventure-switch/ring-fit-adventure-switch-boxart.png",
-        "valor": "R$ 199,95",
-        "sinopse": "Um RPG de fitness com exercícios interativos.",
-        "avaliacoes": 4.5
-    },
-    {
-        "id": 181,
-        "nome": "It Takes Two",
-        "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202011/0302/Zk1G9aA196nF2pZ1P6z3nW5E.png",
-        "valor": "R$ 149,95",
-        "sinopse": "Um jogo cooperativo sobre relacionamento e trabalho em equipe.",
-        "avaliacoes": 4.8
-    },
-    {
-        "id": 182,
-        "nome": "A Way Out",
-        "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202005/2915/NeL2gT2gC7bC1hF5lmmTbpT8.png",
-        "valor": "R$ 99,95",
-        "sinopse": "Uma aventura cooperativa sobre fuga de prisão.",
-        "avaliacoes": 4.6
-    },
-    {
-        "id": 183,
-        "nome": "Unravel Two",
-        "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202005/2915/OeL2gT2gC7bC1hF5lmmTbpT8.png",
-        "valor": "R$ 74,95",
-        "sinopse": "Um plataforma cooperativo com bonecos de lã.",
-        "avaliacoes": 4.5
-    },
-    {
-        "id": 184,
-        "nome": "Journey to the Savage Planet",
-        "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202005/2915/PeL2gT2gC7bC1hF5lmmTbpT8.png",
-        "valor": "R$ 99,95",
-        "sinopse": "Exploração e humor em um planeta alienígena.",
-        "avaliacoes": 4.4
-    },
-    {
-        "id": 185,
-        "nome": "Ori and the Blind Forest",
-        "imagem": "https://store-images.s-microsoft.com/image/apps.12351.14102193805786390.6e8b4b8f-6a4b-4e7e-9b8a-5b1d9f5e5c7b.3c8c7d1b-5f7e-4f8a-9c2d-8e9f9f5e5c7b",
-        "valor": "R$ 49,95",
-        "sinopse": "Um metroidvania com visuais encantadores.",
-        "avaliacoes": 4.8
-    },
-    {
-        "id": 186,
-        "nome": "Cuphead",
-        "imagem": "https://store-images.s-microsoft.com/image/apps.12352.14102193805786390.6e8b4b8f-6a4b-4e7e-9b8a-5b1d9f5e5c7b.3c8c7d1b-5f7e-4f8a-9c2d-8e9f9f5e5c7b",
-        "valor": "R$ 74,95",
-        "sinopse": "Um jogo de plataforma com estilo retrô e dificuldade alta.",
-        "avaliacoes": 4.7
-    },
-    {
-        "id": 187,
-        "nome": "Gris",
-        "imagem": "https://cdn2.steamstatic.com/steam/apps/683320/capsule_sm_120.jpg",
-        "valor": "R$ 37,45",
-        "sinopse": "Uma experiência artística com narrativa emocional.",
-        "avaliacoes": 4.8
-    },
-    {
-        "id": 188,
-        "nome": "Inside",
-        "imagem": "https://cdn2.steamstatic.com/steam/apps/304430/capsule_sm_120.jpg",
-        "valor": "R$ 49,95",
-        "sinopse": "Um plataforma sombrio com puzzles intrigantes.",
-        "avaliacoes": 4.7
-    },
-    {
-        "id": 189,
-        "nome": "Limbo",
-        "imagem": "https://cdn2.steamstatic.com/steam/apps/48000/capsule_sm_120.jpg",
-        "valor": "R$ 24,95",
-        "sinopse": "Um plataforma sombrio com atmosfera única.",
-        "avaliacoes": 4.6
-    },
-    {
-        "id": 190,
-        "nome": "The Stanley Parable",
-        "imagem": "https://cdn2.steamstatic.com/steam/apps/221910/capsule_sm_120.jpg",
-        "valor": "R$ 37,45",
-        "sinopse": "Uma narrativa interativa sobre escolhas e liberdade.",
-        "avaliacoes": 4.7
-    },
-    {
-        "id": 191,
-        "nome": "What Remains of Edith Finch",
-        "imagem": "https://cdn2.steamstatic.com/steam/apps/501300/capsule_sm_120.jpg",
-        "valor": "R$ 49,95",
-        "sinopse": "Uma coleção de contos interativos sobre uma família.",
-        "avaliacoes": 4.8
-    },
-    {
-        "id": 192,
-        "nome": "Firewatch",
-        "imagem": "https://cdn2.steamstatic.com/steam/apps/383870/capsule_sm_120.jpg",
-        "valor": "R$ 49,95",
-        "sinopse": "Uma aventura em primeira pessoa sobre mistério e solidão.",
-        "avaliacoes": 4.6
-    },
-    {
-        "id": 193,
-        "nome": "Gone Home",
-        "imagem": "https://cdn2.steamstatic.com/steam/apps/232430/capsule_sm_120.jpg",
-        "valor": "R$ 37,45",
-        "sinopse": "Uma história interativa sobre família e descoberta.",
-        "avaliacoes": 4.4
-    },
-    {
-        "id": 194,
-        "nome": "Soma",
-        "imagem": "https://cdn2.steamstatic.com/steam/apps/282140/capsule_sm_120.jpg",
-        "valor": "R$ 74,95",
-        "sinopse": "Um jogo de terror e ficção científica subaquática.",
-        "avaliacoes": 4.7
-    },
-    {
-        "id": 195,
-        "nome": "Amnesia: The Dark Descent",
-        "imagem": "https://cdn2.steamstatic.com/steam/apps/57300/capsule_sm_120.jpg",
-        "valor": "R$ 49,95",
-        "sinopse": "Um clássico de terror com exploração e puzzles.",
-        "avaliacoes": 4.6
-    },
-    {
-        "id": 196,
-        "nome": "Outlast",
-        "imagem": "https://cdn2.steamstatic.com/steam/apps/238320/capsule_sm_120.jpg",
-        "valor": "R$ 49,95",
-        "sinopse": "Um jogo de terror em um asilo abandonado.",
-        "avaliacoes": 4.5
-    },
-    {
-        "id": 197,
-        "nome": "Dead Space",
-        "imagem": "https://cdn2.steamstatic.com/steam/apps/17470/capsule_sm_120.jpg",
-        "valor": "R$ 99,95",
-        "sinopse": "Um clássico de terror e ficção científica no espaço.",
-        "avaliacoes": 4.7
-    },
-    {
-        "id": 198,
-        "nome": "Alien: Isolation",
-        "imagem": "https://cdn2.steamstatic.com/steam/apps/214490/capsule_sm_120.jpg",
-        "valor": "R$ 99,95",
-        "sinopse": "Sobreviva ao Xenomorfo neste jogo de terror stealth.",
-        "avaliacoes": 4.7
-    },
-    {
-        "id": 199,
-        "nome": "Layers of Fear",
-        "imagem": "https://cdn2.steamstatic.com/steam/apps/391220/capsule_sm_120.jpg",
-        "valor": "R$ 49,95",
-        "sinopse": "Um jogo de terror psicológico sobre um pintor louco.",
-        "avaliacoes": 4.5
-    },
-    {
-        "id": 200,
-        "nome": "F.E.A.R.",
-        "imagem": "https://cdn2.steamstatic.com/steam/apps/21090/capsule_sm_120.jpg",
-        "valor": "R$ 49,95",
-        "sinopse": "Um FPS de terror com elementos sobrenaturais.",
-        "avaliacoes": 4.6
-    },
-    {
-        "id": 201,
-        "nome": "Gift Card Steam R$ 100",
-        "imagem": "https://exemplo.com/steam-giftcard.jpg",
+        "nome": "Gift Card Steam",
+        "imagem": "https://cdn.awsli.com.br/2500x2500/2430/2430819/produto/181036951/68cc3c406f.jpg",
         "valor": "R$ 100,00",
         "sinopse": "Crédito para comprar jogos, DLCs e itens na Steam.",
         "avaliacoes": 4.9,
         "tipo": "giftcard"
     },
     {
-        "id": 202,
-        "nome": "Gift Card Xbox R$ 200",
-        "imagem": "https://exemplo.com/xbox-giftcard.jpg",
+        "id": 101,
+        "nome": "Gift Card Xbox",
+        "imagem": "https://cdn.shoppub.io/cdn-cgi/image/w=1000,h=1000,q=80,f=auto/oficinadosbits/media/uploads/produtos/foto/frsazyxz/file.png",
         "valor": "R$ 200,00",
         "sinopse": "Crédito para jogos, assinaturas e aplicativos na Microsoft Store.",
         "avaliacoes": 4.8,
         "tipo": "giftcard"
     },
     {
-        "id": 203,
-        "nome": "Gift Card Google Play R$ 50",
-        "imagem": "https://exemplo.com/google-play-giftcard.jpg",
+        "id": 102,
+        "nome": "Gift Card Google Play",
+        "imagem": "https://cdn.awsli.com.br/800x800/2430/2430819/produto/181788920/google-lnmmbs.jpg",
         "valor": "R$ 50,00",
         "sinopse": "Crédito para apps, jogos e assinaturas no Google Play.",
         "avaliacoes": 4.7,
         "tipo": "giftcard"
     },
     {
-        "id": 204,
-        "nome": "Gift Card Apple R$ 150",
-        "imagem": "https://exemplo.com/apple-giftcard.jpg",
-        "valor": "R$ 150,00",
-        "sinopse": "Crédito para App Store, Apple Music e serviços Apple.",
-        "avaliacoes": 4.6,
-        "tipo": "giftcard"
-    },
-    {
-        "id": 205,
-        "nome": "Gift Card Amazon R$ 250",
-        "imagem": "https://exemplo.com/amazon-giftcard.jpg",
-        "valor": "R$ 250,00",
-        "sinopse": "Crédito para compras em produtos, eBooks e assinaturas Prime.",
-        "avaliacoes": 4.8,
-        "tipo": "giftcard"
-    },
-    {
-        "id": 206,
-        "nome": "E-Card PlayStation R$ 150",
-        "imagem": "https://exemplo.com/psn-ecard.jpg",
-        "valor": "R$ 150,00",
-        "sinopse": "Crédito para jogos, DLCs e assinaturas na PlayStation Store.",
-        "avaliacoes": 4.7,
-        "tipo": "ecard"
-    },
-    {
-        "id": 207,
-        "nome": "E-Card Nintendo R$ 300",
-        "imagem": "https://exemplo.com/nintendo-ecard.jpg",
-        "valor": "R$ 300,00",
-        "sinopse": "Crédito para Nintendo eShop (jogos, DLCs e expansões).",
-        "avaliacoes": 4.6,
-        "tipo": "ecard"
-    },
-    {
-        "id": 208,
-        "nome": "E-Card Epic Games R$ 100",
-        "imagem": "https://exemplo.com/epic-ecard.jpg",
-        "valor": "R$ 100,00",
-        "sinopse": "Crédito para Fortnite V-Bucks e jogos na Epic Store.",
-        "avaliacoes": 4.5,
-        "tipo": "ecard"
-    },
-    {
-        "id": 209,
-        "nome": "E-Card Roblox R$ 50",
-        "imagem": "https://exemplo.com/roblox-ecard.jpg",
-        "valor": "R$ 50,00",
-        "sinopse": "Crédito para Robux e itens no universo Roblox.",
-        "avaliacoes": 4.8,
-        "tipo": "ecard"
-    },
-    {
-        "id": 210,
-        "nome": "E-Card Netflix R$ 200",
-        "imagem": "https://exemplo.com/netflix-ecard.jpg",
-        "valor": "R$ 200,00",
-        "sinopse": "Crédito para assinaturas Netflix Premium.",
-        "avaliacoes": 4.7,
-        "tipo": "ecard"
-    },
-    {
-        "id": 211,
+        "id": 103,
         "nome": "Xbox Game Pass Ultimate (1 Mês)",
-        "imagem": "https://exemplo.com/gamepass.jpg",
+        "imagem": "https://cdn.awsli.com.br/800x800/2430/2430819/produto/181966791/pass-3-meses-mw2fzvqz5e.jpg",
         "valor": "R$ 59,90/mês",
         "sinopse": "Acesso a mais de 100 jogos, incluindo lançamentos day one.",
         "avaliacoes": 4.9,
         "tipo": "assinatura"
     },
     {
-        "id": 212,
+        "id": 104,
         "nome": "PSN Plus Extra (12 Meses)",
-        "imagem": "https://exemplo.com/psn-plus.jpg",
+        "imagem": "https://cdn.awsli.com.br/600x450/2430/2430819/produto/175202594/gift-cardessencial-12-meses-a7rxuxkhrq.jpg",
         "valor": "R$ 399,90/ano",
         "sinopse": "Jogos mensais grátis, descontos e multiplayer online.",
         "avaliacoes": 4.7,
-        "tipo": "assinatura"
-    },
-    {
-        "id": 213,
-        "nome": "Spotify Premium (6 Meses)",
-        "imagem": "https://exemplo.com/spotify.jpg",
-        "valor": "R$ 149,90",
-        "sinopse": "Música sem anúncios, downloads offline e qualidade superior.",
-        "avaliacoes": 4.8,
-        "tipo": "assinatura"
-    },
-    {
-        "id": 214,
-        "nome": "EA Play Pro (1 Ano)",
-        "imagem": "https://exemplo.com/ea-play.jpg",
-        "valor": "R$ 499,90/ano",
-        "sinopse": "Acesso antecipado a jogos EA e conteúdo exclusivo.",
-        "avaliacoes": 4.5,
-        "tipo": "assinatura"
-    },
-    {
-        "id": 215,
-        "nome": "Disney+ Premium (1 Ano)",
-        "imagem": "https://exemplo.com/disney-plus.jpg",
-        "valor": "R$ 479,90/ano",
-        "sinopse": "Filmes, séries e conteúdos exclusivos da Disney, Marvel e Star Wars.",
-        "avaliacoes": 4.7,
-        "tipo": "assinatura"
-    },
-    {
-        "id": 216,
-        "nome": "Crunchyroll Premium (3 Meses)",
-        "imagem": "https://exemplo.com/crunchyroll.jpg",
-        "valor": "R$ 69,90",
-        "sinopse": "Animes sem anúncios e transmissão simultânea.",
-        "avaliacoes": 4.6,
-        "tipo": "assinatura"
-    },
-    {
-        "id": 217,
-        "nome": "Prime Gaming (1 Ano)",
-        "imagem": "https://exemplo.com/prime-gaming.jpg",
-        "valor": "R$ 199,90/ano",
-        "sinopse": "Jogos grátis mensais, loot exclusivo e Twitch Prime.",
-        "avaliacoes": 4.7,
-        "tipo": "assinatura"
-    },
-    {
-        "id": 218,
-        "nome": "GeForce NOW Priority (6 Meses)",
-        "imagem": "https://exemplo.com/geforce-now.jpg",
-        "valor": "R$ 299,90",
-        "sinopse": "Streaming de jogos em nuvem com RTX ativado.",
-        "avaliacoes": 4.4,
-        "tipo": "assinatura"
-    },
-    {
-        "id": 219,
-        "nome": "Microsoft 365 Family (1 Ano)",
-        "imagem": "https://exemplo.com/microsoft-365.jpg",
-        "valor": "R$ 499,90/ano",
-        "sinopse": "Acesso ao Pacote Office, 1TB de armazenamento e segurança premium.",
-        "avaliacoes": 4.8,
-        "tipo": "assinatura"
-    },
-    {
-        "id": 220,
-        "nome": "Uber Pass (1 Mês)",
-        "imagem": "https://exemplo.com/uber-pass.jpg",
-        "valor": "R$ 39,90/mês",
-        "sinopse": "Descontos em corridas, entregas e Uber Eats.",
-        "avaliacoes": 4.6,
         "tipo": "assinatura"
     }
 ]

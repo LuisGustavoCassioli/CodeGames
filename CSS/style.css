@@ -35,6 +35,10 @@ body {
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
 }
 
 h1, h2, h3, h4, h5, h6,
@@ -50,7 +54,6 @@ header, .card h2, .detalhes-info h1 {
 
 main {
   flex: 1;
-  padding-bottom: 20px; /* Espaço extra se necessário */
 }
 
 /* Header Style */
@@ -619,12 +622,10 @@ header .search i {
 .site-footer {
   background-color: #3d2c50;
   color: #ecf0f1;
-  padding: 7px;
+  padding: 20px 0;
   text-align: center;
-  max-height: 100%;
-  position: fixed;
-  bottom: 0;
   width: 100%;
+  margin-top: auto;
 }
 
 .footer-content {
