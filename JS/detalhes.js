@@ -32,7 +32,6 @@ document.addEventListener("DOMContentLoaded", function () {
       <p class="valor">${jogo.valor}</p>
       <div class="detalhes-botoes">
         <button class="btn-carrinho" data-id="${jogo.id}">Adicionar ao Carrinho</button>
-        <button class="btn-comprar" data-id="${jogo.id}">Comprar</button>
       </div>
       <p class="avaliacoes">Avaliação: ${jogo.avaliacoes}/5</p>
       <p class="sinopse">${jogo.sinopse}</p>
